@@ -1,4 +1,5 @@
 import discord
+import os
 from discord import embeds
 from discord import channel
 from option import *
@@ -2805,4 +2806,4 @@ async def on_message(message):
   
 
 
-client.run(TOKEN)
+client.run(os.environ['token'])
