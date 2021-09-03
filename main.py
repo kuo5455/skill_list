@@ -203,6 +203,7 @@ async def on_message(message):
         embed.add_field(name="프레임", value="15", inline=True)
         embed.add_field(name="판정", value="중단", inline=False)
         embed.add_field(name="가드시", value=" -5", inline=False)
+        embed.set_image(url="https://cdn.discordapp.com/attachments/865482695256440843/883313392125898762/ezgif.com-gif-maker.gif")
         await message.channel.send(embed=embed)
 
     if message.content == f"{prefix}하단창":
