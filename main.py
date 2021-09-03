@@ -181,7 +181,7 @@ async def on_message(message):
         await message.channel.send(embed=embed)
 
     if message.content == f"{prefix}녹티스 진군상단":
-        embed = discord.Embed(title="combination raid", description = "3rk rp rㅏ", color=0x009bcf)
+        embed = discord.Embed(title="combination raid", description = "3rk rp rk", color=0x009bcf)
         embed.add_field(name="프레임", value="14", inline=True)
         embed.add_field(name="판정", value="중상상", inline=False)
         embed.add_field(name="가드시", value=" -5", inline=False)
@@ -207,7 +207,7 @@ async def on_message(message):
     if message.content == f"{prefix}녹티스 2rp rp":
         embed = discord.Embed(title="hydra slice", description = "2rp rp", color=0x009bcf)
         embed.add_field(name="프레임", value="20", inline=True)
-        embed.add_field(name="판정", value="하상)", inline=False)
+        embed.add_field(name="판정", value="하상", inline=False)
         embed.add_field(name="가드시", value=" -15(1타)-9(2타)", inline=False)
         embed.set_image(url="https://cdn.discordapp.com/attachments/865482695256440843/883322583167156294/ezgif.com-gif-maker_13.gif")
         await message.channel.send(embed=embed)
@@ -249,7 +249,6 @@ async def on_message(message):
         embed.add_field(name="프레임", value="17", inline=True)
         embed.add_field(name="판정", value="하단", inline=False)
         embed.add_field(name="가드시", value=" -12", inline=False)
-        embed.set_image(url="")
         await message.channel.send(embed=embed)
 
     if message.content == f"{prefix}오라":
@@ -273,7 +272,6 @@ async def on_message(message):
         embed.add_field(name="프레임", value="14", inline=True)
         embed.add_field(name="판정", value="중단", inline=False)
         embed.add_field(name="가드시", value=" -9", inline=False)
-        embed.set_image(url="")
         await message.channel.send(embed=embed)
 
     if message.content == f"{prefix}부왕의 검"or  message.content == f"{prefix}녹티스 가불기":
@@ -368,7 +366,6 @@ async def on_message(message):
         embed.add_field(name="프레임", value="18", inline=True)
         embed.add_field(name="판정", value="중단(카운터시 오라(1ap) 확정)", inline=False)
         embed.add_field(name="가드시", value=" 0", inline=False)
-        embed.set_image(url="")
         await message.channel.send(embed=embed)
 
 
