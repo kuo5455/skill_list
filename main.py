@@ -212,7 +212,7 @@ async def on_message(message):
         embed.add_field(name="가드시", value=" -19", inline=False)
         await message.channel.send(embed=embed)
 
-    if message.content == f"{prefix}녹티스 짠발":
+    if message.content == f"{prefix}녹티스 1lk":
         embed = discord.Embed(title="sweep kick", description = "1lk", color=0x009bcf)
         embed.add_field(name="프레임", value="16", inline=True)
         embed.add_field(name="판정", value="하단", inline=False)
@@ -1037,7 +1037,7 @@ async def on_message(message):
         embed.add_field(name="가드시", value="-19(가드백 있음)", inline=False)
         await message.channel.send(embed=embed)
 
-    if message.content == f"{prefix}폴 굴렁쇠":
+    if message.content == f"{prefix}폴 66rk":
         embed = discord.Embed(title="neutron bomb" , description = "66rk", color=0x009bcf)
         embed.add_field(name="프레임", value="20", inline=True)
         embed.add_field(name="판정", value="중단", inline=False)
@@ -1126,9 +1126,9 @@ async def on_message(message):
 
     if message.content == f"{prefix}폴 레아":
         embed = discord.Embed(title="rage art" , description = "ap(4입력으로캔슬) ", color=0x009bcf)
-        embed.add_field(name="프레임", value="12", inline=True)
+        embed.add_field(name="프레임", value="22", inline=True)
         embed.add_field(name="판정", value="중단", inline=False)
-        embed.add_field(name="가드시", value="+2(가드백 있음)", inline=False)
+        embed.add_field(name="가드시", value="-22", inline=False)
         await message.channel.send(embed=embed)
 
     
@@ -1325,7 +1325,7 @@ async def on_message(message):
     if message.content == f"{prefix}네간 원투투":
         embed = discord.Embed(title="heavy rain" , description = "lp rp rp", color=0x009bcf)
         embed.add_field(name="프레임", value="10", inline=True)
-        embed.add_field(name="판정", value="상상중(3타 단독 카운터시 콤보)", inline=False)
+        embed.add_field(name="판정", value="상상중(3타 히트시 콤보)", inline=False)
         embed.add_field(name="가드시", value="+4", inline=False)
         await message.channel.send(embed=embed)
 
@@ -1666,7 +1666,7 @@ async def on_message(message):
         embed.add_field(name="판정", value="상단", inline=False)
         await message.channel.send(embed=embed)
 
-    if message.content == f"{prefix}머덕 자세 2ap":
+    if message.content == f"{prefix}머덕 자세 2ap" or message.content == f"{prefix}머덕 밥상":
         embed = discord.Embed(title="python explosion" , description = "자세도중 2ap", color=0x009bcf)
         embed.add_field(name="프레임", value="17", inline=True)
         embed.add_field(name="판정", value="하단", inline=False)
