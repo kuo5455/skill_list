@@ -17,7 +17,7 @@ async def on_message(message):
     if message.author.bot:
         return None   
 
-    if message.content == f"{prefix}봇 사용법" or message.content == f"{prefix}help":
+    if message.content == f"{prefix}봇 사용법" or message.content == f"{prefix}도움":
         embed = discord.Embed(title="기술표 도움말", description = "!봇 사용법 or !help", color=0x009bcf)
         embed.add_field(name="!캐릭터이름 커맨드", value="ex!브라이언 뒷무릎, !녹티스 66ap", inline=True)
         embed.add_field(name="!캐릭터이름 기술이름 or !기술이름", value="ex!카즈야 나락, !쌍부", inline=False)
@@ -27,7 +27,7 @@ async def on_message(message):
 
     if message.content == f"{prefix}계급표":
         embed = discord.Embed(title="계급표", description = "", color=0x009bcf)
-        embed.add_field(name="추가사항", value="Tekken Lord->Tekken King로수정, 최고계급 Tekken God Omega추가w", inline=True)
+        embed.add_field(name="추가사항", value="Tekken Lord->Tekken King로수정, 최고계급 Tekken God Omega추가", inline=True)
         embed.set_image(url="https://cdn.discordapp.com/attachments/831066623103336459/831157990722895922/common.png")
         await message.channel.send(embed=embed)
 
@@ -38,7 +38,7 @@ async def on_message(message):
         embed.set_image(url="https://cdn.discordapp.com/attachments/865482695256440843/865482912945668146/1cfa337ec8452d13bf099da2b211266b3ac11185cd2fe7da322f5c81f4567b68ea080b678826bb097a11138c3325d8a8b4e8.png")
         await message.channel.send(embed=embed)
 
-    if message.content == f"{prefix}녹티스 원투투" or message.content == f"{prefix}녹티스 10딜캐":
+    if message.content == f"{prefix}녹티스 원투투":
         embed = discord.Embed(title="left right slice", description = "lp rp rp", color=0x009bcf)
         embed.add_field(name="프레임", value="10", inline=True)
         embed.add_field(name="판정", value="상단", inline=False)
@@ -59,21 +59,21 @@ async def on_message(message):
         embed.add_field(name="가드시", value=" -12(1타) -14(5타)", inline=False)
         await message.channel.send(embed=embed)
 
-    if message.content == f"{prefix}투투중단":
+    if message.content == f"{prefix}투투 중단":
         embed = discord.Embed(title="triple assault", description = "rp rp 6rp", color=0x009bcf)
         embed.add_field(name="프레임", value="15", inline=True)
         embed.add_field(name="판정", value="중단", inline=False)
         embed.add_field(name="가드시", value=" -14", inline=False)
         await message.channel.send(embed=embed)
 
-    if message.content == f"{prefix}투투시프트":
+    if message.content == f"{prefix}투투 시프트":
         embed = discord.Embed(title="doudle assault to warp-strike", description = "rp rp 4rp", color=0x009bcf)
         embed.add_field(name="프레임", value="15", inline=True)
         embed.add_field(name="판정", value="중단", inline=False)
         embed.add_field(name="가드시", value=" -11", inline=False)
         await message.channel.send(embed=embed)
 
-    if message.content == f"{prefix}녹티스 양손":
+    if message.content == f"{prefix}녹티스 ap":
         embed = discord.Embed(title="cyclone slash", description = "ap(4로캔슬 가능)", color=0x009bcf)
         embed.add_field(name="프레임", value="18", inline=True)
         embed.add_field(name="판정", value="상중(호밍기)", inline=False)
@@ -88,14 +88,14 @@ async def on_message(message):
         await message.channel.send(embed=embed)
 
 
-    if message.content == f"{prefix}앞무릎 시프트":
+    if message.content == f"{prefix}녹티스 6lk rp":
         embed = discord.Embed(title="stinger knee to warp-strike", description = "6lk rp", color=0x009bcf)
         embed.add_field(name="프레임", value="16", inline=True)
         embed.add_field(name="판정", value="중단", inline=False)
         embed.add_field(name="가드시", value=" -11", inline=False)
         await message.channel.send(embed=embed)
 
-    if message.content == f"{prefix}녹티스 앞오른발 오른손":
+    if message.content == f"{prefix}녹티스 6rk rp":
         embed = discord.Embed(title="circle slash", description = "6rk rp", color=0x009bcf)
         embed.add_field(name="프레임", value="17", inline=True)
         embed.add_field(name="판정", value="중단", inline=False)
@@ -109,7 +109,7 @@ async def on_message(message):
         embed.add_field(name="가드시", value=" -19", inline=False)
         await message.channel.send(embed=embed)
 
-    if message.content == f"{prefix}롤닷지" or message. content == f"{prefix}녹티스 앞양발":
+    if message.content == f"{prefix}롤닷지" or message. content == f"{prefix}녹티스 6ak":
         embed = discord.Embed(title="roll-dodge", description = "6ak", color=0x009bcf)
         
         await message.channel.send(embed=embed)
@@ -135,14 +135,14 @@ async def on_message(message):
         embed.add_field(name="가드시", value=" -13", inline=False)
         await message.channel.send(embed=embed)
 
-    if message.content == f"{prefix}녹티스 왼어퍼 투" or message.content == f"{prefix}녹티스 13딜캐":
+    if message.content == f"{prefix}녹티스 왼어퍼 투" or message.content == f"{prefix}녹티스 3lp rp":
         embed = discord.Embed(title="short uppercut to warp-strike", description = "3lp rp", color=0x009bcf)
         embed.add_field(name="프레임", value="13", inline=True)
         embed.add_field(name="판정", value="중단", inline=False)
         embed.add_field(name="가드시", value=" -12(2타)", inline=False)
         await message.channel.send(embed=embed)
 
-    if message.content == f"{prefix}녹티스 왼어퍼 포":
+    if message.content == f"{prefix}녹티스 왼어퍼 포" or message.content == f"{prefix}녹티스 3lp rk":
         embed = discord.Embed(title="head spinner", description = "3lp rk", color=0x009bcf)
         embed.add_field(name="프레임", value="13", inline=True)
         embed.add_field(name="판정", value="중상", inline=False)
@@ -152,7 +152,7 @@ async def on_message(message):
     if message.content == f"{prefix}컷칼":
         embed = discord.Embed(title="royal edge", description = "3rp", color=0x009bcf)
         embed.add_field(name="프레임", value="15", inline=True)
-        embed.add_field(name="판정", value="중단(콤보시동기)", inline=False)
+        embed.add_field(name="판정", value="중단", inline=False)
         embed.add_field(name="가드시", value=" -20", inline=False)
         await message.channel.send(embed=embed)
 
@@ -184,7 +184,7 @@ async def on_message(message):
         embed.add_field(name="가드시", value=" -3", inline=False)
         await message.channel.send(embed=embed)
 
-    if message.content == f"{prefix}녹티스 아래 오른손":
+    if message.content == f"{prefix}녹티스 2rp rp":
         embed = discord.Embed(title="hydra slice", description = "2rp rp", color=0x009bcf)
         embed.add_field(name="프레임", value="20", inline=True)
         embed.add_field(name="판정", value="하상)", inline=False)
@@ -208,7 +208,7 @@ async def on_message(message):
     if message.content == f"{prefix}하단창":
         embed = discord.Embed(title="delta thrust", description = "1rp", color=0x009bcf)
         embed.add_field(name="프레임", value="24", inline=True)
-        embed.add_field(name="판정", value="하단(카운터시 오라(1ap) 확정)", inline=False)
+        embed.add_field(name="판정", value="하단(카운터시 오라(1ap)확정)", inline=False)
         embed.add_field(name="가드시", value=" -19", inline=False)
         await message.channel.send(embed=embed)
 
@@ -230,13 +230,13 @@ async def on_message(message):
         embed = discord.Embed(title="royal slash", description = "1ap", color=0x009bcf)
         embed.add_field(name="프레임", value="25(홀드시46)", inline=True)
         embed.add_field(name="판정", value="중단", inline=False)
-        embed.add_field(name="가드시", value=" -16(가드백있음,홀드시+6가드백없음)", inline=False)
+        embed.add_field(name="가드시", value=" -16(가드백 있음 ,홀드시+6가드백 없음)", inline=False)
         await message.channel.send(embed=embed)
 
     if message.content == f"{prefix}녹티스 12딜캐":
         embed = discord.Embed(title="shadow stab", description = "4lp rp", color=0x009bcf)
         embed.add_field(name="프레임", value="12", inline=True)
-        embed.add_field(name="판정", value="상단(2타 단독카운터시 콤보)", inline=False)
+        embed.add_field(name="판정", value="상단(2타 단독 카운터시 콤보)", inline=False)
         embed.add_field(name="가드시", value=" -9", inline=False)
         await message.channel.send(embed=embed)
 
@@ -256,7 +256,7 @@ async def on_message(message):
     if message.content == f"{prefix}퀵칼":
         embed = discord.Embed(title="qiuck stab", description = "9lp", color=0x009bcf)
         embed.add_field(name="프레임", value="13", inline=True)
-        embed.add_field(name="판정", value="상단(카운터 콤보시동기)", inline=False)
+        embed.add_field(name="판정", value="상단(카운터시 콤보)", inline=False)
         embed.add_field(name="가드시", value=" -4", inline=False)
         await message.channel.send(embed=embed)
 
@@ -274,7 +274,7 @@ async def on_message(message):
         embed.add_field(name="가드시", value=" -14", inline=False)
         await message.channel.send(embed=embed)
 
-    if message.content == f"{prefix}섀도우 시져스" or message. content == f"{prefix}녹티스 66ap":
+    if message.content == f"{prefix}시져스" or message. content == f"{prefix}녹티스 66ap":
         embed = discord.Embed(title="shadow scissors", description = "66ap", color=0x009bcf)
         embed.add_field(name="프레임", value="15", inline=True)
         embed.add_field(name="판정", value="중단(호밍기)", inline=False)
@@ -284,25 +284,25 @@ async def on_message(message):
     if message.content == f"{prefix}공참칼":
         embed = discord.Embed(title="meteor cursh", description = "666ap", color=0x009bcf)
         embed.add_field(name="프레임", value="23", inline=True)
-        embed.add_field(name="판정", value="중단(콤보시동기)", inline=False)
+        embed.add_field(name="판정", value="중단", inline=False)
         embed.add_field(name="가드시", value=" +11", inline=False)
         await message.channel.send(embed=embed)
 
-    if message.content == f"{prefix}기상칼" or message. content == f"{prefix}녹티스 기상13딜캐":
+    if message.content == f"{prefix}기상칼" or message. content == f"{prefix}녹티스 기상 lp rp":
         embed = discord.Embed(title="tidal slsah", description = "일어나면서lp rp", color=0x009bcf)
         embed.add_field(name="프레임", value="13", inline=True)
-        embed.add_field(name="판정", value="중단", inline=False)
+        embed.add_field(name="판정", value="중단(2타 단독 카운터시 오라(1ap)확정)", inline=False)
         embed.add_field(name="가드시", value=" -13(2타)", inline=False)
         await message.channel.send(embed=embed)
 
-    if message.content == f"{prefix}녹티스 기상무릎" or message. content == f"{prefix}녹티스 기상14딜캐":
+    if message.content == f"{prefix}녹티스 기상무릎" or message. content == f"{prefix}녹티스 기상 lk rp":
         embed = discord.Embed(title="stinger knee to warp-strike", description = "일어나면서lk rp", color=0x009bcf)
         embed.add_field(name="프레임", value="14", inline=True)
         embed.add_field(name="판정", value="중단", inline=False)
         embed.add_field(name="가드시", value=" -11(2타)", inline=False)
         await message.channel.send(embed=embed)
 
-    if message.content == f"{prefix}녹티스 기상어퍼" or message. content == f"{prefix}녹티스 기상15딜캐":
+    if message.content == f"{prefix}녹티스 기상어퍼":
         embed = discord.Embed(title="regulus cross", description = "일어나면서rp rp", color=0x009bcf)
         embed.add_field(name="프레임", value="15", inline=True)
         embed.add_field(name="판정", value="중단", inline=False)
@@ -324,7 +324,7 @@ async def on_message(message):
         await message.channel.send(embed=embed)
 
     if message.content == f"{prefix}녹티스 횡 오른손":
-        embed = discord.Embed(title="voltex edge", description = "횡신후 rp", color=0x009bcf)
+        embed = discord.Embed(title="voltex edge", description = "횡신 rp", color=0x009bcf)
         embed.add_field(name="프레임", value="18", inline=True)
         embed.add_field(name="판정", value="중단(카운터시 오라(1ap) 확정)", inline=False)
         embed.add_field(name="가드시", value=" 0", inline=False)
@@ -346,14 +346,14 @@ async def on_message(message):
         embed.set_image(url="https://cdn.discordapp.com/attachments/865482695256440843/865551585123500042/f35615c93286ef30c850bb40d2a0d7a54162c1535482d9ace048d13e7079cea5fb52fb5ba2f033819ae8be81f8d6dfb5c10c.png")
         await message.channel.send(embed=embed)
 
-    if message.content == f"{prefix}원원투" or message. content == f"{prefix}섬광":
+    if message.content == f"{prefix}섬광":
         embed = discord.Embed(title="flash punch combo", description = "lp lp rp", color=0x009bcf)
         embed.add_field(name="프레임", value="10", inline=True)
         embed.add_field(name="판정", value="상상중", inline=False)
         embed.add_field(name="가드시", value=" -17", inline=False)
         await message.channel.send(embed=embed)
 
-    if message.content == f"{prefix}풍신류 원투투":
+    if message.content == f"{prefix}카즈야 원투투" or message.content == f"{prefix}데빌진 원투투" :
         embed = discord.Embed(title="demon slayer", description = "lp rp rp", color=0x009bcf)
         embed.add_field(name="프레임", value="10", inline=True)
         embed.add_field(name="판정", value="상단", inline=False)
@@ -364,7 +364,7 @@ async def on_message(message):
         embed = discord.Embed(title="twin fang doule kick", description = "lp rp rk lk", color=0x009bcf)
         embed.add_field(name="프레임", value="10", inline=True)
         embed.add_field(name="판정", value="상상하중", inline=False)
-        embed.add_field(name="가드시", value=" -13(3타) -2(4타)", inline=False)
+        embed.add_field(name="가드시", value=" -13(3타)", inline=False)
         await message.channel.send(embed=embed)
 
     if message.content == f"{prefix}카즈야 쓰리원포":
@@ -374,7 +374,7 @@ async def on_message(message):
         embed.add_field(name="가드시", value=" -6", inline=False)
         await message.channel.send(embed=embed)
 
-    if message.content == f"{prefix}카즈야 데몬 시져스":
+    if message.content == f"{prefix}카즈야 데몬 시져스" or message.content == f"{prefix}카즈야 rp lp":
         embed = discord.Embed(title="demon sicssors", description = "[rp lp]", color=0x009bcf)
         embed.add_field(name="프레임", value="31", inline=True)
         embed.add_field(name="판정", value="중단", inline=False)
@@ -388,7 +388,7 @@ async def on_message(message):
         embed.add_field(name="가드시", value=" -12", inline=False)
         await message.channel.send(embed=embed)
 
-    if message.content == f"{prefix}카즈야 앞왼발":
+    if message.content == f"{prefix}카즈야 6lk":
         embed = discord.Embed(title="oni front kick", description = "6lk", color=0x009bcf)
         embed.add_field(name="프레임", value="19", inline=True)
         embed.add_field(name="판정", value="중단", inline=False)
@@ -398,14 +398,14 @@ async def on_message(message):
     if message.content == f"{prefix}우종":
         embed = discord.Embed(title="right splits kick", description = "6rk", color=0x009bcf)
         embed.add_field(name="프레임", value="19", inline=True)
-        embed.add_field(name="판정", value="중단", inline=False)
+        embed.add_field(name="판정", value="중단(카운터시 뻥발(66rk)확정)", inline=False)
         embed.add_field(name="가드시", value=" +4", inline=False)
         await message.channel.send(embed=embed)
 
     if message.content == f"{prefix}카즈야 왼어퍼투":
         embed = discord.Embed(title="slicing blade", description = "3lp rp", color=0x009bcf)
         embed.add_field(name="프레임", value="15", inline=True)
-        embed.add_field(name="판정", value="중단", inline=False)
+        embed.add_field(name="판정", value="중단(히트시 뻥발(66rk)확정)", inline=False)
         embed.add_field(name="가드시", value=" -13", inline=False)
         await message.channel.send(embed=embed)
 
@@ -444,7 +444,7 @@ async def on_message(message):
         embed.add_field(name="가드시", value=" -11", inline=False)
         await message.channel.send(embed=embed)
 
-    if message.content == f"{prefix}카즈야 12딜캐":
+    if message.content == f"{prefix}카즈야 4lp rp":
         embed = discord.Embed(title="sokushitsu goda", description = "4lp rp", color=0x009bcf)
         embed.add_field(name="프레임", value="12", inline=True)
         embed.add_field(name="판정", value="상중", inline=False)
@@ -520,14 +520,14 @@ async def on_message(message):
         embed.add_field(name="가드시", value=" +10", inline=False)
         await message.channel.send(embed=embed)
 
-    if message.content == f"{prefix}카즈야 떠퍼" or message.content == f"{prefix}카즈야 더블어퍼" or message.content == f"{prefix}카즈야 기상13딜캐":
+    if message.content == f"{prefix}카즈야 떠퍼" or message.content == f"{prefix}카즈야 기상 lp rp":
         embed = discord.Embed(title="twin pistons", description = "일어나면서 lp rp", color=0x009bcf)
         embed.add_field(name="프레임", value="13", inline=True)
         embed.add_field(name="판정", value="중단", inline=False)
         embed.add_field(name="가드시", value=" -12", inline=False)
         await message.channel.send(embed=embed)
 
-    if message.content == f"{prefix}마신권"  or message.content == f"{prefix}카즈야 기상16딜캐":
+    if message.content == f"{prefix}마신권"  or message.content == f"{prefix}카즈야 기상rp":
         embed = discord.Embed(title="demon god fist", description = "일어나면서 rp", color=0x009bcf)
         embed.add_field(name="프레임", value="16", inline=True)
         embed.add_field(name="판정", value="중단", inline=False)
@@ -665,7 +665,7 @@ async def on_message(message):
         embed.add_field(name="가드시", value=" -12", inline=False)
         await message.channel.send(embed=embed)
 
-    if message.content == f"{prefix}샤힌 rk2타" :
+    if message.content == f"{prefix}샤힌 rk rk" :
         embed = discord.Embed(title="hallux kick to ra'd ", description = "rk lp", color=0x009bcf)
         embed.add_field(name="프레임", value="11", inline=True)
         embed.add_field(name="판정", value="상단", inline=False)
@@ -811,7 +811,7 @@ async def on_message(message):
         embed.add_field(name="가드시", value="-11(가드백있음)", inline=False)
         await message.channel.send(embed=embed)
 
-    if message.content == f"{prefix}샤힌 타격잡기" or message. content == f"{prefix}샤힌 14딜캐":
+    if message.content == f"{prefix}샤힌 타격잡기" or message. content == f"{prefix}샤힌 64rp":
         embed = discord.Embed(title="hornet", description = "64rp", color=0x009bcf)
         embed.add_field(name="프레임", value="14", inline=True)
         embed.add_field(name="판정", value="상단", inline=False)
@@ -843,7 +843,7 @@ async def on_message(message):
         embed = discord.Embed(title="serpens", description = "stealth step 도중 rk lp", color=0x009bcf)
         embed.add_field(name="프레임", value="16", inline=True)
         embed.add_field(name="판정", value="하상(카운터시 2타 확정)", inline=False)
-        embed.add_field(name="가드시", value="-15(1타) -2(2타)", inline=False)
+        embed.add_field(name="가드시", value="-15(1타)", inline=False)
         await message.channel.send(embed=embed)
 
     if message.content == f"{prefix}샤힌 자세ak":
@@ -860,7 +860,7 @@ async def on_message(message):
         embed.add_field(name="가드시", value="-17", inline=False)
         await message.channel.send(embed=embed)
 
-    if message.content == f"{prefix}샤힌 기상킥":
+    if message.content == f"{prefix}샤힌 기상 lk":
         embed = discord.Embed(title="doudle scorpion", description = "일어나면서 lk lk", color=0x009bcf)
         embed.add_field(name="프레임", value="13", inline=True)
         embed.add_field(name="판정", value="중단", inline=False)
@@ -904,21 +904,21 @@ async def on_message(message):
         embed.add_field(name="가드시", value="-14", inline=False)
         await message.channel.send(embed=embed)
 
-    if message.content == f"{prefix}파크산고":
+    if message.content == f"{prefix}폴 6rplk":
         embed = discord.Embed(title="chain" , description = "6rplk", color=0x009bcf)
         embed.add_field(name="프레임", value="20", inline=True)
         embed.add_field(name="판정", value="중단", inline=False)
         embed.add_field(name="가드시", value="-14", inline=False)
         await message.channel.send(embed=embed)
 
-    if message.content == f"{prefix}폴 왼어퍼 3타":
+    if message.content == f"{prefix}폴 3lp lp rp":
         embed = discord.Embed(title="lion's roar" , description = "3lp lp rp", color=0x009bcf)
         embed.add_field(name="프레임", value="14", inline=True)
         embed.add_field(name="판정", value="중상중", inline=False)
         embed.add_field(name="가드시", value="-5", inline=False)
         await message.channel.send(embed=embed)
 
-    if message.content == f"{prefix}왼어퍼 스웨이":
+    if message.content == f"{prefix}폴 왼어퍼":
         embed = discord.Embed(title="body blow tp sway" , description = "3lp(4입력으로 스웨이)", color=0x009bcf)
         embed.add_field(name="프레임", value="14", inline=True)
         embed.add_field(name="판정", value="중단", inline=False)
@@ -967,28 +967,21 @@ async def on_message(message):
         embed.add_field(name="가드시", value="-11", inline=False)
         await message.channel.send(embed=embed)
 
-    if message.content == f"{prefix}쌍부" or message. content == f"{prefix}폴 12딜캐":
+    if message.content == f"{prefix}쌍부":
         embed = discord.Embed(title="doule axe swing" , description = "4lp rp", color=0x009bcf)
         embed.add_field(name="프레임", value="12", inline=True)
         embed.add_field(name="판정", value="상단(호밍기)", inline=False)
         embed.add_field(name="가드시", value="-5", inline=False)
         await message.channel.send(embed=embed)
 
-    if message.content == f"{prefix}폴 뒷무릎" or message. content == f"{prefix}폴 14딜캐":
+    if message.content == f"{prefix}폴 뒷무릎" or message. content == f"{prefix}폴 4lk":
         embed = discord.Embed(title="light out" , description = "4kl", color=0x009bcf)
         embed.add_field(name="프레임", value="14", inline=True)
         embed.add_field(name="판정", value="중단", inline=False)
         embed.add_field(name="가드시", value="-6", inline=False)
         await message.channel.send(embed=embed)
 
-    if message.content == f"{prefix}폴 짠발":
-        embed = discord.Embed(title="leg sweep" , description = "4rk", color=0x009bcf)
-        embed.add_field(name="프레임", value="20", inline=True)
-        embed.add_field(name="판정", value="하단", inline=False)
-        embed.add_field(name="가드시", value="-13", inline=False)
-        await message.channel.send(embed=embed)
-
-    if message.content == f"{prefix}폴 짠발":
+    if message.content == f"{prefix}폴 4rk":
         embed = discord.Embed(title="leg sweep" , description = "4rk", color=0x009bcf)
         embed.add_field(name="프레임", value="20", inline=True)
         embed.add_field(name="판정", value="하단", inline=False)
@@ -1225,7 +1218,7 @@ async def on_message(message):
         embed.add_field(name="가드시", value="-5", inline=False)
         await message.channel.send(embed=embed)
 
-    if message.content == f"{prefix}클라 뒷무릎":
+    if message.content == f"{prefix}클라 뒷무릎" or message.content == f"{prefix}클라 4lk":
         embed = discord.Embed(title="crescent heel" , description = "4lk lk", color=0x009bcf)
         embed.add_field(name="프레임", value="14", inline=True)
         embed.add_field(name="판정", value="중단(2타카운터시 콤보)", inline=False)
@@ -1273,7 +1266,7 @@ async def on_message(message):
         embed.add_field(name="가드시", value="+7", inline=False)
         await message.channel.send(embed=embed)
 
-    if message.content == f"{prefix}클라 기상왼손":
+    if message.content == f"{prefix}클라 기상 lp":
         embed = discord.Embed(title="noble step" , description = "일어나면서 lp lp", color=0x009bcf)
         embed.add_field(name="프레임", value="13", inline=True)
         embed.add_field(name="판정", value="중상", inline=False)
@@ -1714,7 +1707,7 @@ async def on_message(message):
         embed.add_field(name="가드시", value="-11", inline=False)
         await message.channel.send(embed=embed)
 
-    if message.content == f"{prefix}머덕 니슬라":
+    if message.content == f"{prefix}니슬라":
         embed = discord.Embed(title="knee slicer" , description = "2rk", color=0x009bcf)
         embed.add_field(name="프레임", value="14", inline=True)
         embed.add_field(name="판정", value="하단", inline=False)
