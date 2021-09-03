@@ -43,6 +43,7 @@ async def on_message(message):
         embed.add_field(name="프레임", value="10", inline=True)
         embed.add_field(name="판정", value="상단", inline=False)
         embed.add_field(name="가드시", value=" -11", inline=False)
+        embed.set_image(url="https://cdn.discordapp.com/attachments/865482695256440843/883323345544826910/ezgif.com-gif-maker_32.gif")
         await message.channel.send(embed=embed)
 
     if message.content == f"{prefix}녹티스 원투양손":
@@ -50,13 +51,15 @@ async def on_message(message):
         embed.add_field(name="프레임", value="10", inline=True)
         embed.add_field(name="판정", value="상상중", inline=False)
         embed.add_field(name="가드시", value=" -9(가드백있음)", inline=False)
+        embed.set_image(url="https://cdn.discordapp.com/attachments/865482695256440843/883333835004186674/lp_rp_ap.gif")
         await message.channel.send(embed=embed)
 
-    if message.content == f"{prefix}녹티스 오른손" or message.content == f"{prefix}블리츠 러쉬":
+    if message.content == f"{prefix}녹티스 rp" or message.content == f"{prefix}블리츠 러쉬":
         embed = discord.Embed(title="blitz rush", description = "rp rp rp rp rp", color=0x009bcf)
         embed.add_field(name="프레임", value="15", inline=True)
         embed.add_field(name="판정", value="중x2상x2중(5타 히트시 하단창(1rp) 확정)", inline=False)
         embed.add_field(name="가드시", value=" -12(1타) -14(5타)", inline=False)
+        embed.set_image(url="https://cdn.discordapp.com/attachments/865482695256440843/883333818478628884/ezgif.com-gif-maker_19.gif")
         await message.channel.send(embed=embed)
 
     if message.content == f"{prefix}투투 중단":
@@ -64,6 +67,7 @@ async def on_message(message):
         embed.add_field(name="프레임", value="15", inline=True)
         embed.add_field(name="판정", value="중단", inline=False)
         embed.add_field(name="가드시", value=" -14", inline=False)
+        embed.set_image(url="https://cdn.discordapp.com/attachments/865482695256440843/883333816322768906/ezgif.com-gif-maker_30.gif")
         await message.channel.send(embed=embed)
 
     if message.content == f"{prefix}투투 시프트":
@@ -71,6 +75,7 @@ async def on_message(message):
         embed.add_field(name="프레임", value="15", inline=True)
         embed.add_field(name="판정", value="중단", inline=False)
         embed.add_field(name="가드시", value=" -11", inline=False)
+        embed.set_image(url="https://cdn.discordapp.com/attachments/865482695256440843/883333835805302784/ezgif.com-gif-maker_29.gif")
         await message.channel.send(embed=embed)
 
     if message.content == f"{prefix}녹티스 ap":
@@ -78,6 +83,7 @@ async def on_message(message):
         embed.add_field(name="프레임", value="18", inline=True)
         embed.add_field(name="판정", value="상중(호밍기)", inline=False)
         embed.add_field(name="가드시", value=" -9(1타) -14(2타)", inline=False)
+        embed.set_image(url="https://cdn.discordapp.com/attachments/865482695256440843/883333874992709652/ezgif.com-gif-maker_17.gif")
         await message.channel.send(embed=embed)
 
     if message.content == f"{prefix}시프트":
@@ -85,6 +91,7 @@ async def on_message(message):
         embed.add_field(name="프레임", value="20", inline=True)
         embed.add_field(name="판정", value="특수중단", inline=False)
         embed.add_field(name="가드시", value=" -9", inline=False)
+        embed.set_image(url="https://cdn.discordapp.com/attachments/865482695256440843/883323005667786772/ezgif.com-gif-maker_21.gif")
         await message.channel.send(embed=embed)
 
 
@@ -93,6 +100,7 @@ async def on_message(message):
         embed.add_field(name="프레임", value="16", inline=True)
         embed.add_field(name="판정", value="중단", inline=False)
         embed.add_field(name="가드시", value=" -11", inline=False)
+        embed.set_image(url="https://cdn.discordapp.com/attachments/865482695256440843/883323005667786772/ezgif.com-gif-maker_21.gif")
         await message.channel.send(embed=embed)
 
     if message.content == f"{prefix}녹티스 6rk rp":
@@ -100,6 +108,7 @@ async def on_message(message):
         embed.add_field(name="프레임", value="17", inline=True)
         embed.add_field(name="판정", value="중단", inline=False)
         embed.add_field(name="가드시", value=" -11", inline=False)
+        embed.set_image(url="https://cdn.discordapp.com/attachments/865482695256440843/883333783095504926/ezgif.com-gif-maker_16.gif")
         await message.channel.send(embed=embed)
 
     if message.content == f"{prefix}중단창":
@@ -107,11 +116,12 @@ async def on_message(message):
         embed.add_field(name="프레임", value="16", inline=True)
         embed.add_field(name="판정", value="중단", inline=False)
         embed.add_field(name="가드시", value=" -19", inline=False)
+        embed.set_image(url="https://cdn.discordapp.com/attachments/865482695256440843/883323112173740092/ezgif.com-gif-maker_25.gif")
         await message.channel.send(embed=embed)
 
     if message.content == f"{prefix}롤닷지" or message. content == f"{prefix}녹티스 6ak":
         embed = discord.Embed(title="roll-dodge", description = "6ak", color=0x009bcf)
-        
+        embed.set_image(url="https://cdn.discordapp.com/attachments/865482695256440843/883322817439993876/ezgif.com-gif-maker_15.gif")
         await message.channel.send(embed=embed)
 
     if message.content == f"{prefix}녹티스 슬라이딩":
@@ -119,13 +129,15 @@ async def on_message(message):
         embed.add_field(name="프레임", value="20", inline=True)
         embed.add_field(name="판정", value="하단(히트시 오라(1ap) 확정)", inline=False)
         embed.add_field(name="가드시", value=" -20", inline=False)
+        embed.set_image(url="https://cdn.discordapp.com/attachments/865482695256440843/883333834068885534/ezgif.com-gif-maker_20.gif")
         await message.channel.send(embed=embed)
 
-    if message.content == f"{prefix}롤닷지 방패":
+    if message.content == f"{prefix}녹티스 자세 lp":
         embed = discord.Embed(title="rolling bash", description = "롤닷지 중 lp", color=0x009bcf)
         embed.add_field(name="프레임", value="18", inline=True)
         embed.add_field(name="판정", value="중단", inline=False)
         embed.add_field(name="가드시", value=" -13", inline=False)
+        embed.set_image(url="https://cdn.discordapp.com/attachments/865482695256440843/883333823880921148/ezgif.com-gif-maker_24.gif")
         await message.channel.send(embed=embed)
 
     if message.content == f"{prefix}녹티스 파크":
@@ -133,6 +145,7 @@ async def on_message(message):
         embed.add_field(name="프레임", value="23", inline=True)
         embed.add_field(name="판정", value="중단(히트시 중단창(6ap)확정)", inline=False)
         embed.add_field(name="가드시", value=" -13", inline=False)
+        embed.set_image(url="https://cdn.discordapp.com/attachments/865482695256440843/883333829010546759/ezgif.com-gif-maker_31.gif")
         await message.channel.send(embed=embed)
 
     if message.content == f"{prefix}녹티스 왼어퍼 투" or message.content == f"{prefix}녹티스 3lp rp":
@@ -140,6 +153,7 @@ async def on_message(message):
         embed.add_field(name="프레임", value="13", inline=True)
         embed.add_field(name="판정", value="중단", inline=False)
         embed.add_field(name="가드시", value=" -12(2타)", inline=False)
+        embed.set_image(url="https://cdn.discordapp.com/attachments/865482695256440843/883333806575218728/ezgif.com-gif-maker_22.gif")
         await message.channel.send(embed=embed)
 
     if message.content == f"{prefix}녹티스 왼어퍼 포" or message.content == f"{prefix}녹티스 3lp rk":
@@ -147,6 +161,7 @@ async def on_message(message):
         embed.add_field(name="프레임", value="13", inline=True)
         embed.add_field(name="판정", value="중상", inline=False)
         embed.add_field(name="가드시", value=" -5", inline=False)
+        embed.set_image(url="https://cdn.discordapp.com/attachments/865482695256440843/883333808525545522/ezgif.com-gif-maker_23.gif")
         await message.channel.send(embed=embed)
 
     if message.content == f"{prefix}컷칼":
@@ -154,13 +169,15 @@ async def on_message(message):
         embed.add_field(name="프레임", value="15", inline=True)
         embed.add_field(name="판정", value="중단", inline=False)
         embed.add_field(name="가드시", value=" -20", inline=False)
+        embed.set_image(url="https://cdn.discordapp.com/attachments/865482695256440843/883323246282428426/ezgif.com-gif-maker_28.gif")
         await message.channel.send(embed=embed)
 
     if message.content == f"{prefix}녹티스 진군중단":
         embed = discord.Embed(title="combination raid", description = "3rk rp rp", color=0x009bcf)
         embed.add_field(name="프레임", value="14", inline=True)
-        embed.add_field(name="판정", value="중상중(3타콤보시동기)", inline=False)
+        embed.add_field(name="판정", value="중상중", inline=False)
         embed.add_field(name="가드시", value=" -8", inline=False)
+        embed.set_image(url="https://cdn.discordapp.com/attachments/865482695256440843/883323200082169896/ezgif.com-gif-maker_27.gif")
         await message.channel.send(embed=embed)
 
     if message.content == f"{prefix}녹티스 진군상단":
@@ -168,6 +185,7 @@ async def on_message(message):
         embed.add_field(name="프레임", value="14", inline=True)
         embed.add_field(name="판정", value="중상상", inline=False)
         embed.add_field(name="가드시", value=" -5", inline=False)
+        embed.set_image(url="https://cdn.discordapp.com/attachments/865482695256440843/883333824690413578/ezgif.com-gif-maker_26.gif")
         await message.channel.send(embed=embed)
 
     if message.content == f"{prefix}녹티스 3ap":
@@ -175,13 +193,15 @@ async def on_message(message):
         embed.add_field(name="프레임", value="25", inline=True)
         embed.add_field(name="판정", value="중단", inline=False)
         embed.add_field(name="가드시", value=" -9(가드백있음)", inline=False)
+        embed.set_image(url="https://cdn.discordapp.com/attachments/865482695256440843/883322609121525760/ezgif.com-gif-maker_14.gif")
         await message.channel.send(embed=embed)
 
-    if message.content == f"{prefix}녹티스 아래 왼손":
+    if message.content == f"{prefix}녹티스 2lp":
         embed = discord.Embed(title="whirlwind dagger", description = "2lp", color=0x009bcf)
         embed.add_field(name="프레임", value="17", inline=True)
         embed.add_field(name="판정", value="중단", inline=False)
         embed.add_field(name="가드시", value=" -3", inline=False)
+        embed.set_image(url="https://cdn.discordapp.com/attachments/865482695256440843/883322567878926387/ezgif.com-gif-maker_12.gif")
         await message.channel.send(embed=embed)
 
     if message.content == f"{prefix}녹티스 2rp rp":
@@ -189,6 +209,7 @@ async def on_message(message):
         embed.add_field(name="프레임", value="20", inline=True)
         embed.add_field(name="판정", value="하상)", inline=False)
         embed.add_field(name="가드시", value=" -15(1타)-9(2타)", inline=False)
+        embed.set_image(url="https://cdn.discordapp.com/attachments/865482695256440843/883322583167156294/ezgif.com-gif-maker_13.gif")
         await message.channel.send(embed=embed)
 
     if message.content == f"{prefix}녹력장":
@@ -196,6 +217,7 @@ async def on_message(message):
         embed.add_field(name="프레임", value="19", inline=True)
         embed.add_field(name="판정", value="하상중", inline=False)
         embed.add_field(name="가드시", value=" -31(1타)-18(3타)", inline=False)
+        embed.set_image(url="https://cdn.discordapp.com/attachments/865482695256440843/883333796768935936/ezgif.com-gif-maker_11.gif")
         await message.channel.send(embed=embed)
 
     if message.content == f"{prefix}녹마찰":
@@ -211,6 +233,7 @@ async def on_message(message):
         embed.add_field(name="프레임", value="24", inline=True)
         embed.add_field(name="판정", value="하단(카운터시 오라(1ap)확정)", inline=False)
         embed.add_field(name="가드시", value=" -19", inline=False)
+        embed.set_image(url="https://cdn.discordapp.com/attachments/865482695256440843/883333882508877894/ezgif.com-gif-maker_44.gif")
         await message.channel.send(embed=embed)
 
     if message.content == f"{prefix}녹티스 1lk":
@@ -218,6 +241,7 @@ async def on_message(message):
         embed.add_field(name="프레임", value="16", inline=True)
         embed.add_field(name="판정", value="하단", inline=False)
         embed.add_field(name="가드시", value=" -13", inline=False)
+        embed.set_image(url="https://cdn.discordapp.com/attachments/865482695256440843/883323571877851186/ezgif.com-gif-maker.gif")
         await message.channel.send(embed=embed)
 
     if message.content == f"{prefix}녹티스 1rk":
@@ -225,6 +249,7 @@ async def on_message(message):
         embed.add_field(name="프레임", value="17", inline=True)
         embed.add_field(name="판정", value="하단", inline=False)
         embed.add_field(name="가드시", value=" -12", inline=False)
+        embed.set_image(url="")
         await message.channel.send(embed=embed)
 
     if message.content == f"{prefix}오라":
@@ -232,26 +257,30 @@ async def on_message(message):
         embed.add_field(name="프레임", value="25(홀드시46)", inline=True)
         embed.add_field(name="판정", value="중단", inline=False)
         embed.add_field(name="가드시", value=" -16(가드백 있음 ,홀드시+6가드백 없음)", inline=False)
+        embed.set_image(url="https://cdn.discordapp.com/attachments/865482695256440843/883333845406089258/ezgif.com-gif-maker_41.gif")
         await message.channel.send(embed=embed)
 
-    if message.content == f"{prefix}녹티스 12딜캐":
+    if message.content == f"{prefix}녹티스 4lp rp":
         embed = discord.Embed(title="shadow stab", description = "4lp rp", color=0x009bcf)
         embed.add_field(name="프레임", value="12", inline=True)
         embed.add_field(name="판정", value="상단(2타 단독 카운터시 콤보)", inline=False)
         embed.add_field(name="가드시", value=" -9", inline=False)
+        embed.set_image(url="https://cdn.discordapp.com/attachments/865482695256440843/883333880353005658/ezgif.com-gif-maker_3.gif")
         await message.channel.send(embed=embed)
 
-    if message.content == f"{prefix}녹티스 뒤오른손"or  message.content == f"{prefix}치도리":
+    if message.content == f"{prefix}녹티스 4rp"or  message.content == f"{prefix}치도리":
         embed = discord.Embed(title="thunder impect", description = "1rp히트후ap(타격잡기)", color=0x009bcf)
         embed.add_field(name="프레임", value="14", inline=True)
         embed.add_field(name="판정", value="중단", inline=False)
         embed.add_field(name="가드시", value=" -9", inline=False)
+        embed.set_image(url="")
         await message.channel.send(embed=embed)
 
     if message.content == f"{prefix}부왕의 검"or  message.content == f"{prefix}녹티스 가불기":
         embed = discord.Embed(title="sword of the father", description = "4lkrp", color=0x009bcf)
         embed.add_field(name="프레임", value="69", inline=True)
         embed.add_field(name="판정", value="가불기", inline=False)
+        embed.set_image(url="https://cdn.discordapp.com/attachments/865482695256440843/883334150965325864/ezgif.com-gif-maker_36.gif")
         await message.channel.send(embed=embed)
 
     if message.content == f"{prefix}퀵칼":
@@ -259,6 +288,7 @@ async def on_message(message):
         embed.add_field(name="프레임", value="13", inline=True)
         embed.add_field(name="판정", value="상단(카운터시 콤보)", inline=False)
         embed.add_field(name="가드시", value=" -4", inline=False)
+        embed.set_image(url="https://cdn.discordapp.com/attachments/865482695256440843/883333872664854558/ezgif.com-gif-maker_43.gif")
         await message.channel.send(embed=embed)
 
     if message.content == f"{prefix}녹티스 컷니":
@@ -266,6 +296,7 @@ async def on_message(message):
         embed.add_field(name="프레임", value="17", inline=True)
         embed.add_field(name="판정", value="중단", inline=False)
         embed.add_field(name="가드시", value=" -13", inline=False)
+        embed.set_image(url="https://cdn.discordapp.com/attachments/865482695256440843/883340641311019038/5abf3196ce5ca880.gif")
         await message.channel.send(embed=embed)
 
     if message.content == f"{prefix}녹티스 66rk":
@@ -273,6 +304,7 @@ async def on_message(message):
         embed.add_field(name="프레임", value="19", inline=True)
         embed.add_field(name="판정", value="중단", inline=False)
         embed.add_field(name="가드시", value=" -14", inline=False)
+        embed.set_image(url="https://cdn.discordapp.com/attachments/865482695256440843/883333871758888970/ezgif.com-gif-maker_6.gif")
         await message.channel.send(embed=embed)
 
     if message.content == f"{prefix}시져스" or message. content == f"{prefix}녹티스 66ap":
@@ -280,6 +312,7 @@ async def on_message(message):
         embed.add_field(name="프레임", value="15", inline=True)
         embed.add_field(name="판정", value="중단(호밍기)", inline=False)
         embed.add_field(name="가드시", value=" -9", inline=False)
+        embed.set_image(url="https://cdn.discordapp.com/attachments/865482695256440843/883333871859560448/ezgif.com-gif-maker_37.gif")
         await message.channel.send(embed=embed)
 
     if message.content == f"{prefix}공참칼":
@@ -287,6 +320,7 @@ async def on_message(message):
         embed.add_field(name="프레임", value="23", inline=True)
         embed.add_field(name="판정", value="중단", inline=False)
         embed.add_field(name="가드시", value=" +11", inline=False)
+        embed.set_image(url="https://cdn.discordapp.com/attachments/865482695256440843/883339337964609626/9b405cab7c0cf1b2.gif")
         await message.channel.send(embed=embed)
 
     if message.content == f"{prefix}기상칼" or message. content == f"{prefix}녹티스 기상 lp rp":
@@ -294,13 +328,15 @@ async def on_message(message):
         embed.add_field(name="프레임", value="13", inline=True)
         embed.add_field(name="판정", value="중단(2타 단독 카운터시 오라(1ap)확정)", inline=False)
         embed.add_field(name="가드시", value=" -13(2타)", inline=False)
+        embed.set_image(url="https://cdn.discordapp.com/attachments/865482695256440843/883340641311019038/5abf3196ce5ca880.gif")
         await message.channel.send(embed=embed)
 
-    if message.content == f"{prefix}녹티스 기상무릎" or message. content == f"{prefix}녹티스 기상 lk rp":
+    if message.content == f"{prefix}녹티스 기상 lk" or message. content == f"{prefix}녹티스 기상 lk rp":
         embed = discord.Embed(title="stinger knee to warp-strike", description = "일어나면서lk rp", color=0x009bcf)
         embed.add_field(name="프레임", value="14", inline=True)
         embed.add_field(name="판정", value="중단", inline=False)
         embed.add_field(name="가드시", value=" -11(2타)", inline=False)
+        embed.set_image(url="https://cdn.discordapp.com/attachments/865482695256440843/883333737847337010/ezgif.com-gif-maker_8.gif")
         await message.channel.send(embed=embed)
 
     if message.content == f"{prefix}녹티스 기상어퍼":
@@ -308,6 +344,7 @@ async def on_message(message):
         embed.add_field(name="프레임", value="15", inline=True)
         embed.add_field(name="판정", value="중단", inline=False)
         embed.add_field(name="가드시", value=" -14(2타)", inline=False)
+        embed.set_image(url="https://cdn.discordapp.com/attachments/865482695256440843/883333733984395274/ezgif.com-gif-maker_9.gif")
         await message.channel.send(embed=embed)
 
     if message.content == f"{prefix}앉아방패":
@@ -315,6 +352,7 @@ async def on_message(message):
         embed.add_field(name="프레임", value="16", inline=True)
         embed.add_field(name="판정", value="중단(히트시 오라(1ap) 확정)", inline=False)
         embed.add_field(name="가드시", value=" -9", inline=False)
+        embed.set_image(url="https://cdn.discordapp.com/attachments/865482695256440843/883333847851352064/ezgif.com-gif-maker_39.gif")
         await message.channel.send(embed=embed)
 
     if message.content == f"{prefix}연칼":
@@ -322,6 +360,7 @@ async def on_message(message):
         embed.add_field(name="프레임", value="20", inline=True)
         embed.add_field(name="판정", value="하단", inline=False)
         embed.add_field(name="가드시", value=" -13", inline=False)
+        embed.set_image(url="https://cdn.discordapp.com/attachments/865482695256440843/883323488293781504/ezgif.com-gif-maker_40.gif")
         await message.channel.send(embed=embed)
 
     if message.content == f"{prefix}녹티스 횡 오른손":
@@ -329,6 +368,7 @@ async def on_message(message):
         embed.add_field(name="프레임", value="18", inline=True)
         embed.add_field(name="판정", value="중단(카운터시 오라(1ap) 확정)", inline=False)
         embed.add_field(name="가드시", value=" 0", inline=False)
+        embed.set_image(url="")
         await message.channel.send(embed=embed)
 
 
@@ -337,6 +377,12 @@ async def on_message(message):
         embed.add_field(name="프레임", value="18", inline=True)
         embed.add_field(name="판정", value="중단", inline=False)
         embed.add_field(name="가드시", value=" +2(가드백있음)", inline=False)
+        embed.set_image(url="https://cdn.discordapp.com/attachments/865482695256440843/883333850372112475/ezgif.com-gif-maker_34.gif")
+        await message.channel.send(embed=embed)
+        
+        if message.content == f"{prefix}녹티스 패링":
+        embed = discord.Embed(title="parry", description = "4ar or 4al", color=0x009bcf)
+        embed.set_image(url="https://cdn.discordapp.com/attachments/865482695256440843/883333846211379240/ezgif.com-gif-maker_38.gif")
         await message.channel.send(embed=embed)
 
     if message.content == f"{prefix}카즈야":
