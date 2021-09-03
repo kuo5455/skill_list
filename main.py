@@ -377,7 +377,8 @@ async def on_message(message):
         embed.set_image(url="https://cdn.discordapp.com/attachments/865482695256440843/883333850372112475/ezgif.com-gif-maker_34.gif")
         await message.channel.send(embed=embed)
         
-        if message.content == f"{prefix}녹티스 패링":
+        
+    if message.content == f"{prefix}녹티스 패링":
         embed = discord.Embed(title="parry", description = "4ar or 4al", color=0x009bcf)
         embed.set_image(url="https://cdn.discordapp.com/attachments/865482695256440843/883333846211379240/ezgif.com-gif-maker_38.gif")
         await message.channel.send(embed=embed)
