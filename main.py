@@ -1191,28 +1191,28 @@ async def on_message(message):
         embed.add_field(name="가드시", value="0", inline=False)
         await message.channel.send(embed=embed)
         
-     if message.content == f"{prefix}214lk":
+    if message.content == f"{prefix}214lk":
         embed = discord.Embed(title="sway and low kick" , description = "214lk", color=0x009bcf)
         embed.add_field(name="프레임", value="15", inline=True)
         embed.add_field(name="판정", value="하단", inline=False)
         embed.add_field(name="가드시", value="-21", inline=False)
         await message.channel.send(embed=embed)
         
-     if message.content == f"{prefix}214lk rp lp":
+    if message.content == f"{prefix}214lk rp lp":
         embed = discord.Embed(title="rapid fire to phoenix smasher" , description = "214lk rp lp", color=0x009bcf)
         embed.add_field(name="프레임", value="15", inline=True)
         embed.add_field(name="판정", value="하중상", inline=False)
         embed.add_field(name="가드시", value="-21, -10(3타, 가드백 있음)", inline=False)
         await message.channel.send(embed=embed)
         
-     if message.content == f"{prefix}214lk rp lk":
+    if message.content == f"{prefix}214lk rp lk":
         embed = discord.Embed(title="rapid fire to lightning breaker" , description = "214lk rp lk", color=0x009bcf)
         embed.add_field(name="프레임", value="15", inline=True)
         embed.add_field(name="판정", value="하중중(3타 단독 카운터시 콤보)", inline=False)
         embed.add_field(name="가드시", value="-21, -13(3타)", inline=False)
         await message.channel.send(embed=embed)
         
-     if message.content == f"{prefix}214ap":
+    if message.content == f"{prefix}214ap":
         embed = discord.Embed(title="higaku" , description = "214ap", color=0x009bcf)
         embed.add_field(name="프레임", value="18", inline=True)
         embed.add_field(name="판정", value="중단", inline=False)
