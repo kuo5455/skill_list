@@ -996,7 +996,7 @@ async def on_message(message):
         embed.add_field(name="가드시", value="+3", inline=False)
         await message.channel.send(embed=embed)
         
-     if message.content == f"{prefix}폴 진군":
+    if message.content == f"{prefix}폴 진군":
         embed = discord.Embed(title="pison fire ", description = "lk rp (4입력시 스웨이)", color=0x009bcf)
         embed.add_field(name="프레임", value="17", inline=True)
         embed.add_field(name="판정", value="중상", inline=False)
