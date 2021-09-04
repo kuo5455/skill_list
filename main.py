@@ -1155,13 +1155,6 @@ async def on_message(message):
         embed.add_field(name="판정", value="상단", inline=False)
         embed.add_field(name="가드시", value="-4", inline=False)
         await message.channel.send(embed=embed)
-        
-    if message.content == f"{prefix}이질풍":
-        embed = discord.Embed(title="thruster" , description = "236lp", color=0x009bcf)
-        embed.add_field(name="프레임", value="16", inline=True)
-        embed.add_field(name="판정", value="상단", inline=False)
-        embed.add_field(name="가드시", value="-4", inline=False)
-        await message.channel.send(embed=embed)
 
     if message.content == f"{prefix}붕권":
         embed = discord.Embed(title="phoenix smasher" , description = "236rp", color=0x009bcf)
