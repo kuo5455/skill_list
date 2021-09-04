@@ -400,7 +400,7 @@ async def on_message(message):
         embed.set_image(url="https://cdn.discordapp.com/attachments/865482695256440843/883333838821003314/ezgif.com-gif-maker_5.gif")
         await message.channel.send(embed=embed)
         
-     if message.content == f"{prefix}녹티스 점프 ap":
+    if message.content == f"{prefix}녹티스 점프 ap":
         embed = discord.Embed(title="ari attack crush", description = "forward jump 정점에서 ap", color=0x009bcf)
         embed.add_field(name="프레임", value="18", inline=True)
         embed.add_field(name="판정", value="중단", inline=False)
