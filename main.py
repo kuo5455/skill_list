@@ -889,7 +889,7 @@ async def on_message(message):
         embed.add_field(name="가드시", value="-13", inline=False)
         await message.channel.send(embed=embed)
         
-    if message.content == f"{prefix}샤힌 66lk" or message.content == f"{prefix}샤힌 666lk":
+    if message.content == f"{prefix}샤힌 66lk"or message.content == f"{prefix}샤힌 666lk":
         embed = discord.Embed(title="hunting falcon dive", description = "66lk or 666lk", color=0x009bcf)
         embed.add_field(name="프레임", value="17", inline=True)
         embed.add_field(name="판정", value="중단", inline=False)
@@ -930,19 +930,19 @@ async def on_message(message):
         embed.add_field(name="판정", value="중단", inline=False)
         embed.add_field(name="가드시", value="-9", inline=False)
         await message.channel.send(embed=embed)
-        
-    if message.content == f"{prefix}샤힌 자세 lk":
-        embed = discord.Embed(title="hunting falcon dive", description = "stealth step 도중 lk", color=0x009bcf)
-        embed.add_field(name="프레임", value="17", inline=True)
-        embed.add_field(name="판정", value="중단", inline=False)
-        embed.add_field(name="가드시", value="-12", inline=False)
-        await message.channel.send(embed=embed)
 
     if message.content == f"{prefix}샤힌 자세rk lp":
         embed = discord.Embed(title="serpens", description = "stealth step 도중 rk lp", color=0x009bcf)
         embed.add_field(name="프레임", value="16", inline=True)
         embed.add_field(name="판정", value="하상(카운터시 2타 확정)", inline=False)
         embed.add_field(name="가드시", value="-15(1타)", inline=False)
+        await message.channel.send(embed=embed)
+        
+    if message.content == f"{prefix}샤힌 자세 lk":
+        embed = discord.Embed(title="hunting falcon dive", description = "stealth step 도중 lk", color=0x009bcf)
+        embed.add_field(name="프레임", value="17", inline=True)
+        embed.add_field(name="판정", value="중단", inline=False)
+        embed.add_field(name="가드시", value="-12", inline=False)
         await message.channel.send(embed=embed)
 
     if message.content == f"{prefix}샤힌 자세ak":
