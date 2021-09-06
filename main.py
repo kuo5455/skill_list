@@ -670,7 +670,7 @@ async def on_message(message):
         embed.set_image(url="https://media.discordapp.net/attachments/865482695256440843/884418295778926652/ezgif.com-gif-maker_10.gif")
         await message.channel.send(embed=embed)
         
-   if message.content == f"{prefix}데빌 피스트":
+    if message.content == f"{prefix}데빌 피스트":
         embed = discord.Embed(title="devil fist", description = "데빌 상태에서66rp", color=0x009bcf)
         embed.add_field(name="프레임", value="16", inline=True)
         embed.add_field(name="판정", value="중단", inline=False)
