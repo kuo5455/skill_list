@@ -559,7 +559,7 @@ async def on_message(message):
         embed.set_image(url="https://media.discordapp.net/attachments/865482695256440843/884418226233147512/ezgif.com-gif-maker_3.gif")
         await message.channel.send(embed=embed)
         
-   if message.content == f"{prefix}카즈야 1lk":
+    if message.content == f"{prefix}카즈야 1lk":
         embed = discord.Embed(title="sliding low kick", description = "11k", color=0x009bcf)
         embed.add_field(name="프레임", value="19", inline=True)
         embed.add_field(name="판정", value="하단", inline=False)
