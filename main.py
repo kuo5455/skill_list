@@ -571,7 +571,7 @@ async def on_message(message):
         embed = discord.Embed(title="lightning screw uppercut", description = "4lprk", color=0x009bcf)
         embed.add_field(name="프레임", value="63", inline=True)
         embed.add_field(name="판정", value="가불기", inline=False)
-        embed.set_image(url="")
+        embed.set_image(url="https://cdn.discordapp.com/attachments/865482695256440843/884424699210256394/ezgif.com-gif-maker.gif")
         await message.channel.send(embed=embed)
 
     if message.content == f"{prefix}중단나락":
