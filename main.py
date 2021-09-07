@@ -600,7 +600,7 @@ async def on_message(message):
         await message.channel.send(embed=embed)
         
     if message.content == f"{prefix}카즈야 몸지랄 하단":
-        embed = discord.Embed(title="regin of terror", description = "4lk lp rk lp", color=0x009bcf)
+        embed = discord.Embed(title="regin of terror", description = "4lk lp rk lk", color=0x009bcf)
         embed.add_field(name="프레임", value="18", inline=True)
         embed.add_field(name="판정", value="상상하하", inline=False)
         embed.add_field(name="가드시", value=" -13", inline=False)
