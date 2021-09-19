@@ -2747,6 +2747,154 @@ async def on_message(message):
         embed.add_field(name="가드시", value=" -14(2타)", inline=False)
         await message.channel.send(embed=embed)
         
+    if message.content == f"{prefix}안나":
+        embed = discord.Embed(title="안나윌리엄스", description = "여성", color=0x009bcf)
+        embed.add_field(name="나이", value="41세", inline=True)
+        embed.add_field(name="출신지", value="아일랜드", inline=True)
+        embed.add_field(name="격투스타일", value="암살 격투술 ", inline=True)
+        embed.set_image(url="https://cdn.discordapp.com/attachments/865482695256440843/865887673733349386/24ea3d1d6b9c1ae574188ac213b304a867c2e837e5cbec47c3c666c740098d1c204e46141132550b675034808d0d4bd4a103.png")
+        await message.channel.send(embed=embed)
+        
+    if message.content == f"{prefix}랜드슬립" or  message.content == f"{prefix}안나 1lk":
+        embed = discord.Embed(title="mudslide", description = "1lk", color=0x009bcf)
+        embed.add_field(name="프레임", value="27", inline=True)
+        embed.add_field(name="판정", value="하단", inline=False)
+        embed.add_field(name="가드시", value="-17", inline=False)
+        await message.channel.send(embed=embed)
+        
+    if message.content == f"{prefix}안나 어퍼" or  message.content == f"{prefix}안나 3rp":
+        embed = discord.Embed(title="step-in uppercut", description = "3rp", color=0x009bcf)
+        embed.add_field(name="프레임", value="15", inline=True)
+        embed.add_field(name="판정", value="중단", inline=False)
+        embed.add_field(name="가드시", value="-12", inline=False)
+        await message.channel.send(embed=embed)
+        
+    if message.content == f"{prefix}안나 짠발" or  message.content == f"{prefix}안나 2rk lp":
+        embed = discord.Embed(title="low kick spin punch to chaos judgement", description = "2rk lp(4입력시 자세이행)", color=0x009bcf)
+        embed.add_field(name="프레임", value="12", inline=True)
+        embed.add_field(name="판정", value="하상", inline=False)
+        embed.add_field(name="가드시", value="-13(자세 이행시 -10)", inline=False)
+        await message.channel.send(embed=embed)
+        
+    if message.content == f"{prefix}코틀리" or  message.content == f"{prefix}안나 66lk rk lk":
+        embed = discord.Embed(title="treading water", description = "66lk rk lk", color=0x009bcf)
+        embed.add_field(name="프레임", value="15", inline=True)
+        embed.add_field(name="판정", value="중단", inline=False)
+        embed.add_field(name="가드시", value="-13(1타), -23(2타), -14(3타)", inline=False)
+        await message.channel.send(embed=embed)
+        
+    if message.content == f"{prefix}안나 횡lk":
+        embed = discord.Embed(title="heel mash", description = "횡신 lk", color=0x009bcf)
+        embed.add_field(name="프레임", value="21", inline=True)
+        embed.add_field(name="판정", value="중단", inline=False)
+        embed.add_field(name="가드시", value="+4", inline=False)
+        await message.channel.send(embed=embed)
+        
+    if message.content == f"{prefix}콜드 블레이드" or  message.content == f"{prefix}안나 손나락":
+        embed = discord.Embed(title="right handed sweep", description = "앉은 상태에서 3rp", color=0x009bcf)
+        embed.add_field(name="프레임", value="20", inline=True)
+        embed.add_field(name="판정", value="하단", inline=False)
+        embed.add_field(name="가드시", value="-21", inline=False)
+        await message.channel.send(embed=embed)
+        
+    if message.content == f"{prefix}안나 기상어퍼":
+        embed = discord.Embed(title="rising palm", description = "일어나면서rp", color=0x009bcf)
+        embed.add_field(name="프레임", value="18", inline=True)
+        embed.add_field(name="판정", value="중단", inline=False)
+        embed.add_field(name="가드시", value="-13", inline=False)
+        await message.channel.send(embed=embed)
+        
+    if message.content == f"{prefix}안나 자세 rk":
+        embed = discord.Embed(title="infernal avalanche", description = "chaos judgement 도중 rk ", color=0x009bcf)
+        embed.add_field(name="프레임", value="27", inline=True)
+        embed.add_field(name="판정", value="하단", inline=False)
+        embed.add_field(name="가드시", value="-29", inline=False)
+        await message.channel.send(embed=embed)
+        
+    if message.content == f"{prefix}안나 자세 lk":
+        embed = discord.Embed(title="picking heel", description = "chaos judgement 도중 lk ", color=0x009bcf)
+        embed.add_field(name="프레임", value="12", inline=True)
+        embed.add_field(name="판정", value="중단(카운터시 콤보)", inline=False)
+        embed.add_field(name="가드시", value="-12", inline=False)
+        await message.channel.send(embed=embed)
+        
+    if message.content == f"{prefix}아카" or message.content == f"{prefix}안나 236lp":
+        embed = discord.Embed(title="assassin's dagger", description = "236lp", color=0x009bcf)
+        embed.add_field(name="프레임", value="13", inline=True)
+        embed.add_field(name="판정", value="상단(카운터시 콤보)", inline=False)
+        embed.add_field(name="가드시", value="+2", inline=False)
+        await message.channel.send(embed=embed)
+        
+    if message.content == f"{prefix}안나 투쓰리" or message.content == f"{prefix}안나 rp lk":
+        embed = discord.Embed(title="straight face wash to chaos judgement ", description = "rp lk (4입력시 자세이행)", color=0x009bcf)
+        embed.add_field(name="프레임", value="10", inline=True)
+        embed.add_field(name="판정", value="상중", inline=False)
+        embed.add_field(name="가드시", value="-11(자세 이행시 -3)", inline=False)
+        await message.channel.send(embed=embed)
+        
+    if message.content == f"{prefix}안나 투쓰리" or message.content == f"{prefix}안나 rp lk":
+        embed = discord.Embed(title="straight face wash to chaos judgement ", description = "rp lk (4입력시 자세이행)", color=0x009bcf)
+        embed.add_field(name="프레임", value="10", inline=True)
+        embed.add_field(name="판정", value="상중", inline=False)
+        embed.add_field(name="가드시", value="-11(자세 이행시 -3)", inline=False)
+        await message.channel.send(embed=embed)
+        
+    if message.content == f"{prefix}안나 왼어퍼 투":
+        embed = discord.Embed(title="uppercut jap ", description = "3lp rp", color=0x009bcf)
+        embed.add_field(name="프레임", value="13", inline=True)
+        embed.add_field(name="판정", value="중상", inline=False)
+        embed.add_field(name="가드시", value="-3", inline=False)
+        await message.channel.send(embed=embed)
+        
+    if message.content == f"{prefix}안나 6rp lk":
+        embed = discord.Embed(title="poison sting & spinning kick", description = "3rp lk", color=0x009bcf)
+        embed.add_field(name="프레임", value="14", inline=True)
+        embed.add_field(name="판정", value="상단", inline=False)
+        embed.add_field(name="가드시", value="-7", inline=False)
+        await message.channel.send(embed=embed)
+        
+    if message.content == f"{prefix}안산고":
+        embed = discord.Embed(title="aphrodite's scorn", description = "3lkrp", color=0x009bcf)
+        embed.add_field(name="프레임", value="14", inline=True)
+        embed.add_field(name="판정", value="중단", inline=False)
+        embed.add_field(name="가드시", value="-16", inline=False)
+        await message.channel.send(embed=embed)
+        
+    if message.content == f"{prefix}안나 3lk rk":
+        embed = discord.Embed(title="mid head ringer", description = "3lk rk", color=0x009bcf)
+        embed.add_field(name="프레임", value="14", inline=True)
+        embed.add_field(name="판정", value="중상", inline=False)
+        embed.add_field(name="가드시", value="-7", inline=False)
+        await message.channel.send(embed=embed)
+        
+    if message.content == f"{prefix}안나 싸다구":
+        embed = discord.Embed(title="double slap", description = "4rp rp", color=0x009bcf)
+        embed.add_field(name="프레임", value="14", inline=True)
+        embed.add_field(name="판정", value="상단(호밍기)", inline=False)
+        embed.add_field(name="가드시", value="-6", inline=False)
+        await message.channel.send(embed=embed)
+        
+    if message.content == f"{prefix}안나 레드":
+        embed = discord.Embed(title="rage drive", description = "236lkrp", color=0x009bcf)
+        embed.add_field(name="프레임", value="15", inline=True)
+        embed.add_field(name="판정", value="중단", inline=False)
+        embed.add_field(name="가드시", value="+5", inline=False)
+        await message.channel.send(embed=embed)
+        
+    if message.content == f"{prefix}안나 레아":
+        embed = discord.Embed(title="rage art", description = "4ap", color=0x009bcf)
+        embed.add_field(name="프레임", value="13", inline=True)
+        embed.add_field(name="판정", value="상단", inline=False)
+        embed.add_field(name="가드시", value="-9(가드백 있음)", inline=False)
+        await message.channel.send(embed=embed)
+        
+    if message.content == f"{prefix}안나 가불기":
+        embed = discord.Embed(title="bloody scissors", description = "2ap", color=0x009bcf)
+        embed.add_field(name="프레임", value="60", inline=True)
+        embed.add_field(name="판정", value="가불기", inline=False)
+        await message.channel.send(embed=embed)
+    
+        
 
     if message.content == f"{prefix}화랑"or message.content == f"{prefix}솟랑":
         embed = discord.Embed(title="화랑(별명)", description = "남성", color=0x009bcf)
@@ -2935,13 +3083,6 @@ async def on_message(message):
         embed.set_image(url="https://cdn.discordapp.com/attachments/865482695256440843/865658478840512522/8e7010ea99ad5ff9c9b01a5dc90ec56fcec89b6923fa700e6b5568fd5922abb47423c09460e24a5cc654ebe3670401308008.png")
         await message.channel.send(embed=embed)
 
-    if message.content == f"{prefix}안나":
-        embed = discord.Embed(title="안나윌리엄스", description = "여성", color=0x009bcf)
-        embed.add_field(name="나이", value="41세", inline=True)
-        embed.add_field(name="출신지", value="아일랜드", inline=True)
-        embed.add_field(name="격투스타일", value="암살 격투술 ", inline=True)
-        embed.set_image(url="https://cdn.discordapp.com/attachments/865482695256440843/865887673733349386/24ea3d1d6b9c1ae574188ac213b304a867c2e837e5cbec47c3c666c740098d1c204e46141132550b675034808d0d4bd4a103.png")
-        await message.channel.send(embed=embed)
 
     if message.content == f"{prefix}알리사":
         embed = discord.Embed(title="알리사 보스코노비치", description = "여성", color=0x009bcf)
