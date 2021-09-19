@@ -21,7 +21,7 @@ async def on_message(message):
         embed = discord.Embed(title="기술표 도움말", description = "!봇 사용법 or !도움", color=0x009bcf)
         embed.add_field(name="!캐릭터이름 커맨드", value="ex!브라이언 뒷무릎, !녹티스 66ap", inline=True)
         embed.add_field(name="!캐릭터이름 기술이름 or !기술이름", value="ex!카즈야 나락, !쌍부", inline=False)
-        embed.add_field(name="등록된 캐릭터", value="녹티스, 카즈야, 샤힌, 폴, 클라우디오, 네간, 머독, 리로이, 데빌진", inline=False)
+        embed.add_field(name="등록된 캐릭터", value="녹티스, 카즈야, 샤힌, 폴, 클라우디오, 네간, 머독, 리로이, 데빌진, 안나", inline=False)
         await message.channel.send(embed=embed)
 
 
