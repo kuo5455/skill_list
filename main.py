@@ -2938,7 +2938,7 @@ async def on_message(message):
         await message.channel.send(embed=embed)
 
 
-    if message.content == f"{prefix}드라구노프":
+    if message.content == f"{prefix}드라구노프" or message.content == f"{prefix}":
         embed = discord.Embed(title="세르게이 드라구노프", description = "남성", color=0x009bcf)
         embed.add_field(name="나이", value="26세", inline=True)
         embed.add_field(name="출신지", value="러시아", inline=True)
@@ -3012,7 +3012,7 @@ async def on_message(message):
         embed.set_image(url="https://cdn.discordapp.com/attachments/865482695256440843/865654294544253019/f56a9a7685e037a17c73c0931f2a6f6235d4499070b60037c058ee19010eb200011720c2f580647cbb74ef2dc9196eda5d76.png")
         await message.channel.send(embed=embed)
 
-    if message.content == f"{prefix}마레":
+    if message.content == f"{prefix}마레" or message.content == f"{prefix}마스터 레":
         embed = discord.Embed(title="마스터 레이븐", description = "여성", color=0x009bcf)
         embed.add_field(name="나이", value="불명", inline=True)
         embed.add_field(name="출신지", value="불명", inline=True)
@@ -3045,7 +3045,7 @@ async def on_message(message):
         embed.set_image(url="https://cdn.discordapp.com/attachments/865482695256440843/865656364666978344/1fb12b9e3e5e517ed832942b00a9ccd2d96ec1636e07f799522c584a825d0bea8771e7afea098d8ca708a58b17c6df3d7ce4.png")
         await message.channel.send(embed=embed)
 
-    if message.content == f"{prefix}샤오유":
+    if message.content == f"{prefix}샤오유" or message.content == f"{prefix}조도유":
         embed = discord.Embed(title="링 샤오유", description = "여성", color=0x009bcf)
         embed.add_field(name="나이", value="18세", inline=True)
         embed.add_field(name="출신지", value="중국", inline=True)
@@ -3163,7 +3163,7 @@ async def on_message(message):
         embed.set_image(url="https://cdn.discordapp.com/attachments/865482695256440843/869231392431685632/77665e762de42ce1889f99390fe88e5cf4dc9bb217d765e583191c5c9c961dbf2cafbd7b10d4ac194a70859deb48b6823b4a.png")
         await message.channel.send(embed=embed)
 
-    if message.content == f"{prefix}카타리나":
+    if message.content == f"{prefix}카타리나" or message.content == f"{prefix}카타":
         embed = discord.Embed(title="카타리나 아우베스", description = "여성", color=0x009bcf)
         embed.add_field(name="나이", value="20대중반~30대초반으로추정", inline=True)
         embed.add_field(name="출신지", value="브라질", inline=True)
