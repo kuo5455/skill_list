@@ -379,9 +379,9 @@ async def on_message(message):
     if message.content == f"{prefix}녹티스 4lk lp":
         embed = discord.Embed(title="night fall", description = "4lk lp", color=0x009bcf)
         embed.add_field(name="프레임", value="14", inline=True)
-        embed.add_field(name="판정", value="상중(히트시 오라(1ap) 확정)", inline=False)
+        embed.add_field(name="판정", value="상중", inline=False)
         embed.add_field(name="가드시", value="-14", inline=False)
-        embed.set_image(url="https://cdn.discordapp.com/attachments/865482695256440843/883333516341964820/ezgif.com-gif-maker_2.gif")
+        embed.set_image(url="")
         await message.channel.send(embed=embed)
         
     if message.content == f"{prefix}녹티스 뒤자세 rp":
@@ -1249,9 +1249,9 @@ async def on_message(message):
     if message.content == f"{prefix}북치기":
         embed = discord.Embed(title="wrecking ball" , description = "7rp", color=0x009bcf)
         embed.add_field(name="프레임", value="20", inline=True)
-        embed.add_field(name="판정", value="중단(호밍기)", inline=False)
+        embed.add_field(name="판정", value="중단(호밍기,카운터시 콤보)", inline=False)
         embed.add_field(name="가드시", value="-9", inline=False)
-        embed.set_image(url="https://cdn.discordapp.com/attachments/865482695256440843/884796419825872976/ezgif.com-gif-maker_1.gif")
+        embed.set_image(url="")
         await message.channel.send(embed=embed)
 
     if message.content == f"{prefix}쌍비":
@@ -1333,7 +1333,7 @@ async def on_message(message):
         embed.set_image(url="https://cdn.discordapp.com/attachments/865482695256440843/884790266563817512/ezgif.com-gif-maker_19.gif")
         await message.channel.send(embed=embed)
         
-    if message.content == f"{prefix}214lp":
+    if message.content == f"{prefix}폴 214lp":
         embed = discord.Embed(title="god hammer punch" , description = "214lp", color=0x009bcf)
         embed.add_field(name="프레임", value="18", inline=True)
         embed.add_field(name="판정", value="중단(카운터시 콤보)", inline=False)
@@ -1341,7 +1341,7 @@ async def on_message(message):
         embed.set_image(url="")
         await message.channel.send(embed=embed)
         
-    if message.content == f"{prefix}214lk":
+    if message.content == f"{prefix}폴 214lk":
         embed = discord.Embed(title="sway and low kick" , description = "214lk", color=0x009bcf)
         embed.add_field(name="프레임", value="15", inline=True)
         embed.add_field(name="판정", value="하단", inline=False)
@@ -1349,7 +1349,7 @@ async def on_message(message):
         embed.set_image(url="")
         await message.channel.send(embed=embed)
         
-    if message.content == f"{prefix}214lk rp lp":
+    if message.content == f"{prefix}폴 214lk rp lp":
         embed = discord.Embed(title="rapid fire to phoenix smasher" , description = "214lk rp lp", color=0x009bcf)
         embed.add_field(name="프레임", value="15", inline=True)
         embed.add_field(name="판정", value="하중상", inline=False)
@@ -1357,7 +1357,7 @@ async def on_message(message):
         embed.set_image(url="")
         await message.channel.send(embed=embed)
         
-    if message.content == f"{prefix}214lk rp lk":
+    if message.content == f"{prefix}폴 214lk rp lk":
         embed = discord.Embed(title="rapid fire to lightning breaker" , description = "214lk rp lk", color=0x009bcf)
         embed.add_field(name="프레임", value="15", inline=True)
         embed.add_field(name="판정", value="하중중(3타 단독 카운터시 콤보)", inline=False)
@@ -1365,7 +1365,7 @@ async def on_message(message):
         embed.set_image(url="")
         await message.channel.send(embed=embed)
         
-    if message.content == f"{prefix}214ap":
+    if message.content == f"{prefix}폴 214ap":
         embed = discord.Embed(title="higaku" , description = "214ap", color=0x009bcf)
         embed.add_field(name="프레임", value="18", inline=True)
         embed.add_field(name="판정", value="중단", inline=False)
@@ -1444,7 +1444,7 @@ async def on_message(message):
         await message.channel.send(embed=embed)
 
 
-    if message.content == f"{prefix}클라 앞투투" or message. content == f"{prefix}클라 12딜캐":
+    if message.content == f"{prefix}클라 앞투투" or message. content == f"{prefix}클라 6":
         embed = discord.Embed(title="deadly sin to sarbust" , description = "6rp rp", color=0x009bcf)
         embed.add_field(name="프레임", value="12", inline=True)
         embed.add_field(name="판정", value="상중", inline=False)
