@@ -2996,7 +2996,7 @@ async def on_message(message):
     if message.content == f"{prefix}짠썸" or message.content == f"{prefix}로우 2rp lk":
         embed = discord.Embed(title="", description = "2rp lk", color=0x009bcf)
         embed.add_field(name="프레임", value="11", inline=True)
-        embed.add_field(name="판정", value="하중(1타 카운터시 2타 확정)", inline=False)
+        embed.add_field(name="판정", value="중단", inline=False)
         embed.add_field(name="가드시", value="-15(2타)", inline=False)
         await message.channel.send(embed=embed)
         
