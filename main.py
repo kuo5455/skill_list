@@ -2993,11 +2993,11 @@ async def on_message(message):
         embed.add_field(name="가드시", value="-2", inline=False)
         await message.channel.send(embed=embed)
         
-    if message.content == f"{prefix}짠썸" or message.content == f"{prefix}로우 2rp lk":
-        embed = discord.Embed(title="", description = "2rp lk", color=0x009bcf)
-        embed.add_field(name="프레임", value="11", inline=True)
-        embed.add_field(name="판정", value="중단", inline=False)
-        embed.add_field(name="가드시", value="-15(2타)", inline=False)
+    if message.content == f"{prefix}짠썸" or message.content == f"{prefix}로우 2ak lk":
+        embed = discord.Embed(title="", description = "2ak lk", color=0x009bcf)
+        embed.add_field(name="프레임", value="12", inline=True)
+        embed.add_field(name="판정", value="하중(1타 카운터시 2타확정)", inline=False)
+        embed.add_field(name="가드시", value="-17(2타)", inline=False)
         await message.channel.send(embed=embed)
         
     if message.content == f"{prefix}로우 악마발":
@@ -3033,6 +3033,13 @@ async def on_message(message):
         embed.add_field(name="프레임", value="19", inline=True)
         embed.add_field(name="판정", value="하단", inline=False)
         embed.add_field(name="가드시", value="-23", inline=False)
+        await message.channel.send(embed=embed)
+        
+    if message.content == f"{prefix}로우 로하이":
+        embed = discord.Embed(title="", description = "2rk lk", color=0x009bcf)
+        embed.add_field(name="프레임", value="15", inline=True)
+        embed.add_field(name="판정", value="하상", inline=False)
+        embed.add_field(name="가드시", value="-12(1타)", inline=False)
         await message.channel.send(embed=embed)
     
         
