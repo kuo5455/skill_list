@@ -1750,7 +1750,7 @@ async def on_message(message):
     if message.content == f"{prefix}네간 파크" or message. content == f"{prefix}네간 6ap":
         embed = discord.Embed(title="walker maker" , description = "6ap", color=0x009bcf)
         embed.add_field(name="프레임", value="24", inline=True)
-        embed.add_field(name="판정", value="중단", inline=False)
+        embed.add_field(name="판정", value="중단(파워 크래시)", inline=False)
         embed.add_field(name="가드시", value="-15", inline=False)
         await message.channel.send(embed=embed)
 
