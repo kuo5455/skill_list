@@ -2448,7 +2448,7 @@ async def on_message(message):
         await message.channel.send(embed=embed)
 
     if message.content == f"{prefix}리로이 기상 lp rk":
-        embed = discord.Embed(title="elbow slash snap kick to hermit" , description = "일어서 lp rk(자세이행)", color=0x009bcf)
+        embed = discord.Embed(title="elbow slash snap kick to hermit" , description = "일어나면서 lp rk(자세이행)", color=0x009bcf)
         embed.add_field(name="프레임", value="13", inline=True)
         embed.add_field(name="판정", value="중단", inline=False)
         embed.add_field(name="가드시", value="-6", inline=False)
