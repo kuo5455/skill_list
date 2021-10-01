@@ -135,7 +135,7 @@ async def on_message(message):
     if message.content == f"{prefix}녹티스 자세 lp":
         embed = discord.Embed(title="rolling bash", description = "롤닷지 중 lp", color=0x009bcf)
         embed.add_field(name="프레임", value="18", inline=True)
-        embed.add_field(name="판정", value="중단(파워 크래시,월 바운드)", inline=False)
+        embed.add_field(name="판정", value="중단(파워크래시,월바운드)", inline=False)
         embed.add_field(name="가드시", value=" -13", inline=False)
         embed.set_image(url="https://cdn.discordapp.com/attachments/865482695256440843/883333823880921148/ezgif.com-gif-maker_24.gif")
         await message.channel.send(embed=embed)
@@ -3040,6 +3040,13 @@ async def on_message(message):
         embed.add_field(name="프레임", value="15", inline=True)
         embed.add_field(name="판정", value="하상", inline=False)
         embed.add_field(name="가드시", value="-12(1타)", inline=False)
+        await message.channel.send(embed=embed)
+        
+    if message.content == f"{prefix}로우 기상어퍼":
+        embed = discord.Embed(title="", description = "일어나면서 rp", color=0x009bcf)
+        embed.add_field(name="프레임", value="15", inline=True)
+        embed.add_field(name="판정", value="중단", inline=False)
+        embed.add_field(name="가드시", value="-18", inline=False)
         await message.channel.send(embed=embed)
     
         
