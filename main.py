@@ -935,14 +935,14 @@ async def on_message(message):
         embed.add_field(name="가드시", value=" -6", inline=False)
         await message.channel.send(embed=embed)
 
-    if message.content == f"{prefix}샤힌 아래왼발" or message.content == f"{prefix}샤힌 2lk":
+    if  message.content == f"{prefix}샤힌 2lk":
         embed = discord.Embed(title="slient rigel to stealth step", description = "2lk(3입력으로 자세이행)", color=0x009bcf)
         embed.add_field(name="프레임", value="16", inline=True)
         embed.add_field(name="판정", value="하단", inline=False)
         embed.add_field(name="가드시", value=" -14(자세이행시 -10)", inline=False)
         await message.channel.send(embed=embed)
 
-    if message.content == f"{prefix}샤힌 아래오른발" or message.content == f"{prefix}샤힌 2rk":
+    if  message.content == f"{prefix}샤힌 2rk":
         embed = discord.Embed(title="vicious stomp", description = "2rk", color=0x009bcf)
         embed.add_field(name="프레임", value="19", inline=True)
         embed.add_field(name="판정", value="하단", inline=False)
@@ -1320,7 +1320,7 @@ async def on_message(message):
     if message.content == f"{prefix}현월":
         embed = discord.Embed(title="gengetsu" , description = "236lk", color=0x009bcf)
         embed.add_field(name="프레임", value="18", inline=True)
-        embed.add_field(name="판정", value="하단(카운터시 콤보)", inline=False)
+        embed.add_field(name="판정", value="하단", inline=False)
         embed.add_field(name="가드시", value="-14", inline=False)
         embed.set_image(url="")
         await message.channel.send(embed=embed)
@@ -1817,7 +1817,7 @@ async def on_message(message):
         embed.add_field(name="가드시", value="-12", inline=False)
         await message.channel.send(embed=embed)
 
-    if message.content == f"{prefix}네간 1rp":
+    if message.content == f"{prefix}네간 1rp" or message.content == f"{prefix}빠체트":
         embed = discord.Embed(title="agony to intimidation" , description = "1rp", color=0x009bcf)
         embed.add_field(name="프레임", value="24", inline=True)
         embed.add_field(name="판정", value="하단(히트시 자세이행)", inline=False)
@@ -1873,7 +1873,7 @@ async def on_message(message):
         embed.add_field(name="가드시", value="-6", inline=False)
         await message.channel.send(embed=embed)
 
-    if message.content == f"{prefix}네간 칼빵" or  message.content == f"{prefix}네간 236lp":
+    if message.content == f"{prefix}칼찌" or  message.content == f"{prefix}네간 236lp":
         embed = discord.Embed(title="secret weapon" , description = "236lp", color=0x009bcf)
         embed.add_field(name="프레임", value="14", inline=True)
         embed.add_field(name="판정", value="중단(히트시 밟기(2ak)확정)", inline=False)
@@ -2181,7 +2181,7 @@ async def on_message(message):
         await message.channel.send(embed=embed)
 
     if message.content == f"{prefix}머덕 반격기":
-        embed = discord.Embed(title="trap" , description = "상대방의 공격과 동시에 4al or 4ar", color=0x009bcf)
+        embed = discord.Embed(title="trap" , description = "상대방의 공격과 동시에 4al or 4ar(반격시 마운트이)", color=0x009bcf)
 
     if message.content == f"{prefix}머덕 레드":
         embed = discord.Embed(title="rage drive" , description = "6lkrp", color=0x009bcf)
@@ -2748,7 +2748,7 @@ async def on_message(message):
         await message.channel.send(embed=embed)
         
     if message.content == f"{prefix}안나":
-        embed = discord.Embed(title="안나윌리엄스", description = "여성", color=0x009bcf)
+        embed = discord.Embed(title="안나 윌리엄스", description = "여성", color=0x009bcf)
         embed.add_field(name="나이", value="41세", inline=True)
         embed.add_field(name="출신지", value="아일랜드", inline=True)
         embed.add_field(name="격투스타일", value="암살 격투술 ", inline=True)
@@ -2790,7 +2790,7 @@ async def on_message(message):
         embed.add_field(name="가드시", value="+4", inline=False)
         await message.channel.send(embed=embed)
         
-    if message.content == f"{prefix}콜드 블레이드" or  message.content == f"{prefix}안나 손나락":
+    if message.content == f"{prefix}안나 콜블" or  message.content == f"{prefix}안나 손나락":
         embed = discord.Embed(title="right handed sweep", description = "앉은 상태에서 3rp", color=0x009bcf)
         embed.add_field(name="프레임", value="20", inline=True)
         embed.add_field(name="판정", value="하단", inline=False)
