@@ -439,7 +439,7 @@ async def on_message(message):
         embed.set_image(url="https://cdn.discordapp.com/attachments/865482695256440843/884418410769944646/ezgif.com-gif-maker_35.gif")
         await message.channel.send(embed=embed)
 
-    if message.content == f"{prefix}카즈야 원투투" or message.content == f"{prefix}데빌진 원투투" :
+    if message.content == f"{prefix}카즈야 원투투" :
         embed = discord.Embed(title="demon slayer", description = "lp rp rp", color=0x009bcf)
         embed.add_field(name="프레임", value="10", inline=True)
         embed.add_field(name="판정", value="상단", inline=False)
@@ -1433,6 +1433,12 @@ async def on_message(message):
         embed.add_field(name="가드시", value="-22", inline=False)
         embed.set_image(url="https://cdn.discordapp.com/attachments/865482695256440843/884790235723079720/ezgif.com-gif-maker_18.gif")
         await message.channel.send(embed=embed)
+        
+    if message.content == f"{prefix}폴 패링":
+        embed = discord.Embed(title="parry", description = "4ar or 4al", color=0x009bcf)
+        embed.set_image(url="https://cdn.discordapp.com/attachments/865482695256440843/884791021500760124/ezgif.com-gif-maker_36.gif")
+        await message.channel.send(embed=embed)
+
 
     
     if message.content == f"{prefix}클라우디오":
