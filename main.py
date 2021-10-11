@@ -3076,21 +3076,21 @@ async def on_message(message):
         embed.add_field(name="가드시", value="-14(2타), -13(3타)", inline=False)
         await message.channel.send(embed=embed)
         
-     if message.content == f"{prefix}로우 3ak":
+    if message.content == f"{prefix}로우 3ak":
         embed = discord.Embed(title="banana peel", description = "3ak", color=0x009bcf)
         embed.add_field(name="프레임", value="18", inline=True)
         embed.add_field(name="판정", value="하단", inline=False)
         embed.add_field(name="가드시", value="-15", inline=False)
         await message.channel.send(embed=embed)
         
-     if message.content == f"{prefix}로우 2rp lk":
+    if message.content == f"{prefix}로우 2rp lk":
         embed = discord.Embed(title="body blow to dragon lift", description = "2rp lk", color=0x009bcf)
         embed.add_field(name="프레임", value="11", inline=True)
         embed.add_field(name="판정", value="특중중(1타 카운터시 2타 확정)", inline=False)
         embed.add_field(name="가드시", value="-15(2타)", inline=False)
         await message.channel.send(embed=embed)\
         
-     if message.content == f"{prefix}드레곤 테일" or message.content == f"{prefix}로우 스네이크" :
+    if message.content == f"{prefix}드레곤 테일" or message.content == f"{prefix}로우 스네이크" :
         embed = discord.Embed(title="dragon's tail to sumersault kick ", description = "ak rk", color=0x009bcf)
         embed.add_field(name="프레임", value="26", inline=True)
         embed.add_field(name="판정", value="하중(호밍기)", inline=False)
