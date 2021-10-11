@@ -3099,7 +3099,7 @@ async def on_message(message):
         
     if message.content == f"{prefix}로우 가불기":
         embed = discord.Embed(title="charge power punch", description = "1ap(88로캔슬)", color=0x009bcf)
-        embed.add_field(name="프레임", value="18", inline=True)
+        embed.add_field(name="프레임", value="78", inline=True)
         embed.add_field(name="판정", value="가불기", inline=False)
         await message.channel.send(embed=embed)
     
