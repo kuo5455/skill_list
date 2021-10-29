@@ -22,6 +22,7 @@ async def on_message(message):
         embed.add_field(name="!캐릭터이름 커맨드", value="ex!브라이언 뒷무릎, !녹티스 66ap", inline=True)
         embed.add_field(name="!캐릭터이름 기술이름 or !기술이름", value="ex!카즈야 나락, !쌍부", inline=False)
         embed.add_field(name="등록된 캐릭터", value="녹티스, 카즈야, 샤힌, 폴, 클라우디오, 네간, 머독, 리로이, 데빌진, 안나, 로우", inline=False)
+         embed.add_field(name="* 중요 *", value="봇으로 기술이름을 검색하여 나오지않을경우 커맨드로 입력하시고 멘션해주세요 바로 수정하겠습니다 만약 기술이 아예없을경우 빠른 시일 내에 추사하겠니다", inline=False)
         await message.channel.send(embed=embed)
 
 
@@ -983,7 +984,7 @@ async def on_message(message):
         embed.add_field(name="가드시", value="+2", inline=False)
         await message.channel.send(embed=embed)
 
-    if message.content == f"{prefix}샤힌 뒤오른손" or message. content == f"{prefix}샤힌 카운터 잡기":
+    if message.content == f"{prefix}샤힌 뒤오른손" or message. content == f"{prefix}샤힌 4":
         embed = discord.Embed(title="dust storm", description = "1rp", color=0x009bcf)
         embed.add_field(name="프레임", value="15", inline=True)
         embed.add_field(name="판정", value="중단(카운터 잡기)", inline=False)
@@ -1098,7 +1099,7 @@ async def on_message(message):
     if message.content == f"{prefix}샤힌 슬라이딩":
         embed = discord.Embed(title="sand storm", description = "앉은상태에서 363lk", color=0x009bcf)
         embed.add_field(name="프레임", value="16", inline=True)
-        embed.add_field(name="판정", value="하단", inline=False)
+        embed.add_field(name="판정", value="하단(히트시 자세rk 확정)", inline=False)
         embed.add_field(name="가드시", value="-23", inline=False)
         await message.channel.send(embed=embed)
 
@@ -1450,7 +1451,7 @@ async def on_message(message):
         await message.channel.send(embed=embed)
 
 
-    if message.content == f"{prefix}클라 앞투투" or message. content == f"{prefix}클라 6":
+    if message.content == f"{prefix}클라 앞투투" or message. content == f"{prefix}클라 6rp rp":
         embed = discord.Embed(title="deadly sin to sarbust" , description = "6rp rp", color=0x009bcf)
         embed.add_field(name="프레임", value="12", inline=True)
         embed.add_field(name="판정", value="상중", inline=False)
