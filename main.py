@@ -423,6 +423,15 @@ async def on_message(message):
         embed = discord.Embed(title="parry", description = "4ar or 4al", color=0x009bcf)
         embed.set_image(url="https://cdn.discordapp.com/attachments/865482695256440843/883333846211379240/ezgif.com-gif-maker_38.gif")
         await message.channel.send(embed=embed)
+        
+    if message.content == f"{prefix}녹티스 기술표":
+        embed = discord.Embed(title="기술목록" color=0x009bcf)
+        embed.add_field(name="1", value="원투투", inline=True)
+        embed.add_field(name="2", value="원투양손", inline=False)
+        embed.add_field(name="3", value="rp(블리츠 러쉬)", inline=False)
+        embed.add_field(name="4", value="투투 중단", inline=False)
+        embed.add_field(name="5", value="투투 시프트", inline=False)
+        await message.channel.send(embed=embed)
 
     if message.content == f"{prefix}카즈야":
         embed = discord.Embed(title="미시마 카즈야", description = "남성", color=0x009bcf)
