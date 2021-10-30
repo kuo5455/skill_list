@@ -473,7 +473,7 @@ async def on_message(message):
         embed.add_field(name="45", value="뒤자세 rp", inline=False)
         embed.add_field(name="46", value="9rk", inline=False)
         embed.add_field(name="47", value="레드", inline=False)
-        embed.add_field(name="48", value="", inline=False)
+        embed.add_field(name="48", value="패링", inline=False)
         await message.channel.send(embed=embed)
 
     if message.content == f"{prefix}카즈야":
