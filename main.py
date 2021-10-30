@@ -453,6 +453,7 @@ async def on_message(message):
         embed.add_field(name="25", value="하단창", inline=True)
         await message.channel.send(embed=embed)
     if message.content == f"{prefix}녹티스 기술표2":
+        embed = discord.Embed(title="기술목록", description = "", color=0x009bcf)
         embed.add_field(name="26", value="1lk", inline=True)
         embed.add_field(name="27", value="1rk", inline=True)
         embed.add_field(name="28", value="오라", inline=True)
