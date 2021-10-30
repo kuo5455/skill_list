@@ -426,7 +426,7 @@ async def on_message(message):
         
     if message.content == f"{prefix}녹티스 기술표":
         embed = discord.Embed(title="기술목록", description = "", color=0x009bcf)
-        embed.add_field(name="1", value="원투투", inline=True)
+        embed.add_field(name="1", value="원투투", inline=False)
         embed.add_field(name="2", value="원투양손", inline=False)
         embed.add_field(name="3", value="rp(블리츠 러쉬)", inline=False)
         embed.add_field(name="4", value="투투 중단", inline=False)
