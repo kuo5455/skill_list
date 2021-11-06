@@ -915,7 +915,7 @@ async def on_message(message):
         embed.add_field(name="17", value="레드", inline=True)
         await message.channel.send(embed=embed)
         
-   if message.content == f"{prefix}데빌카즈야 기술표":
+    if message.content == f"{prefix}데빌카즈야 기술표":
         embed = discord.Embed(title="기술목록", description = "", color=0x009bcf)
         embed.add_field(name="1", value="레이져", inline=True)
         embed.add_field(name="2", value="레이져2", inline=True)
