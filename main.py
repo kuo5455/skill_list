@@ -3464,7 +3464,7 @@ async def on_message(message):
     if message.content == f"{prefix}아머킹 1ap":
         embed = discord.Embed(title="stomping headbutt", description = "1ap(2 입력시 캔슬후 자세이행)", color=0x009bcf)
         embed.add_field(name="프레임", value="26", inline=True)
-        embed.add_field(name="판정", value="중단(카운터시 콤보)", inline=False)
+        embed.add_field(name="판정", value="중단(히트시 2rk rk rk 확정, 카운터시 콤보)", inline=False)
         embed.add_field(name="가드시", value="+5", inline=False)
         await message.channel.send(embed=embed)
         
@@ -3534,7 +3534,7 @@ async def on_message(message):
         embed = discord.Embed(title="comback kick to shadow step", description = "66lk(2 입력시 자세이행)", color=0x009bcf)
         embed.add_field(name="프레임", value="17", inline=True)
         embed.add_field(name="판정", value="상단(호밍기)", inline=False)
-        embed.add_field(name="가드시", value="+2" inline=False)
+        embed.add_field(name="가드시", value="+2", inline=False)
         await message.channel.send(embed=embed)
                         
     if message.content == f"{prefix}아머킹 66rk":
