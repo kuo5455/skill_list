@@ -3419,7 +3419,7 @@ async def on_message(message):
         embed.add_field(name="가드시", value="+1", inline=False)
         await message.channel.send(embed=embed)
         
-   if message.content == f"{prefix}아머킹 자세rp":
+    if message.content == f"{prefix}아머킹 자세rp":
         embed = discord.Embed(title="shadow sweep", description = "shadow step도중 rp", color=0x009bcf)
         embed.add_field(name="프레임", value="19", inline=True)
         embed.add_field(name="판정", value="하단(카운터시 2ap 확정)", inline=False)
@@ -3558,170 +3558,170 @@ async def on_message(message):
         embed.add_field(name="가드시", value="-10 inline=False)
         await message.channel.send(embed=embed)
                         
-     if message.content == f"{prefix}아머킹 6n23lk":
+    if message.content == f"{prefix}아머킹 6n23lk":
         embed = discord.Embed(title="dark inferno", description = "6n23lk", color=0x009bcf)
         embed.add_field(name="프레임", value="32", inline=True)
         embed.add_field(name="판정", value="상단가불기", inline=False)
         await message.channel.send(embed=embed)
                        
-     if message.content == f"{prefix}아머킹 6n23rk":
+    if message.content == f"{prefix}아머킹 6n23rk":
         embed = discord.Embed(title="knee vault", description = "6n23rk", color=0x009bcf)
         embed.add_field(name="프레임", value="16", inline=True)
         embed.add_field(name="판정", value="중단(히트시 암산고(6lprk), 다운잡(1AL) 확정", inline=False)
         embed.add_field(name="가드시", value="-6" inline=False)
         await message.channel.send(embed=embed)
                         
-     if message.content == f"{prefix}그린미스트" or message.content == f"{prefix}아머킹 6n23ap":
+    if message.content == f"{prefix}그린미스트" or message.content == f"{prefix}아머킹 6n23ap":
         embed = discord.Embed(title="poison mist", description = "6n23ap", color=0x009bcf)
         embed.add_field(name="프레임", value="28", inline=True)
         embed.add_field(name="판정", value="상단가불기", inline=False)
         await message.channel.send(embed=embed)
                         
-     if message.content == f"{prefix}아머킹 공참각":
+    if message.content == f"{prefix}아머킹 공참각":
         embed = discord.Embed(title="flying brawler kick", description = "666lk", color=0x009bcf)
         embed.add_field(name="프레임", value="23", inline=True)
         embed.add_field(name="판정", value="중단", inline=False)
         embed.add_field(name="가드시", value="+10(가드백) inline=False)
         await message.channel.send(embed=embed)
                         
-     if message.content == f"{prefix}아머킹 666ak":
+    if message.content == f"{prefix}아머킹 666ak":
         embed = discord.Embed(title="satellite drop kick", description = "666ak", color=0x009bcf)
         embed.add_field(name="프레임", value="28", inline=True)
         embed.add_field(name="판정", value="중단", inline=False)
         embed.add_field(name="가드시", value="+17" inline=False)
         await message.channel.send(embed=embed)
                         
-     if message.content == f"{prefix}아머킹 기상어퍼":
+    if message.content == f"{prefix}아머킹 기상어퍼":
         embed = discord.Embed(title="snap uppercut", description = "일어나면서lp", color=0x009bcf)
         embed.add_field(name="프레임", value="16", inline=True)
         embed.add_field(name="판정", value="중단", inline=False)
         embed.add_field(name="가드시", value="-10" inline=False)
         await message.channel.send(embed=embed)
                         
-     if message.content == f"{prefix}아머킹 기상rp":
+    if message.content == f"{prefix}아머킹 기상rp":
         embed = discord.Embed(title="jugular thrust", description = "일어나면서rp", color=0x009bcf)
         embed.add_field(name="프레임", value="12", inline=True)
         embed.add_field(name="판정", value="중단(카운터시 콤보)", inline=False)
         embed.add_field(name="가드시", value="-9" inline=False)
         await message.channel.send(embed=embed)
                         
-     if message.content == f"{prefix}아머킹 횡 rp lp":
+    if message.content == f"{prefix}아머킹 횡 rp lp":
         embed = discord.Embed(title="death sandwich", description = "횡신 rp lp", color=0x009bcf)
         embed.add_field(name="프레임", value="15", inline=True)
         embed.add_field(name="판정", value="중단", inline=False)
         embed.add_field(name="가드시", value="-12(1타), -13(2타)" inline=False)
         await message.channel.send(embed=embed)
                         
-     if message.content == f"{prefix}아머킹 뒤자세lk":
+    if message.content == f"{prefix}아머킹 뒤자세lk":
         embed = discord.Embed(title="blind kick", description = "상대방에게 등을 보일 때 lk", color=0x009bcf)
         embed.add_field(name="프레임", value="13", inline=True)
         embed.add_field(name="판정", value="중단", inline=False)
         embed.add_field(name="가드시", value="-20" inline=False)
         await message.channel.send(embed=embed)
                         
-     if message.content == f"{prefix}아머킹 뒤자세rk":
+    if message.content == f"{prefix}아머킹 뒤자세rk":
         embed = discord.Embed(title="turn sobat", description = "상대방에게 등을 보일 때 rk", color=0x009bcf)
         embed.add_field(name="프레임", value="18", inline=True)
         embed.add_field(name="판정", value="중단", inline=False)
         embed.add_field(name="가드시", value="-10(가드백)" inline=False)
         await message.channel.send(embed=embed)
                         
-     if message.content == f"{prefix}아머킹 2rk rk rk":
+    if message.content == f"{prefix}아머킹 2rk rk rk":
         embed = discord.Embed(title="crazy stomp", description = "상대방이 쓰러져 있을 때 2rk rk rk", color=0x009bcf)
         embed.add_field(name="프레임", value="19", inline=True)
         embed.add_field(name="판정", value="하단", inline=False)
         embed.add_field(name="가드시", value="-20" inline=False)
         await message.channel.send(embed=embed)
                         
-     if message.content == f"{prefix}아머킹 교잡":
+    if message.content == f"{prefix}아머킹 교잡":
         embed = discord.Embed(title="driving headbutt", description = "3lkrp", color=0x009bcf)
         embed.add_field(name="프레임", value="12", inline=True)
         embed.add_field(name="판정", value="상단", inline=False)
         await message.channel.send(embed=embed)
                         
-     if message.content == f"{prefix}아머킹 툼스톤":
+    if message.content == f"{prefix}아머킹 툼스톤":
         embed = discord.Embed(title="tomdstone piledriver", description = "16ar", color=0x009bcf)
         embed.add_field(name="프레임", value="11", inline=True)
         embed.add_field(name="판정", value="상단", inline=False)
         await message.channel.send(embed=embed)
                         
-     if message.content == f"{prefix}아머킹 ddt":
+    if message.content == f"{prefix}아머킹 ddt":
         embed = discord.Embed(title="ddt", description = "11ap", color=0x009bcf)
         embed.add_field(name="프레임", value="11", inline=True)
         embed.add_field(name="판정", value="상단", inline=False)
         await message.channel.send(embed=embed)
                         
-     if message.content == f"{prefix}아머킹 자이언트":
+    if message.content == f"{prefix}아머킹 자이언트":
         embed = discord.Embed(title="double arm swing", description = "641236lp", color=0x009bcf)
         embed.add_field(name="프레임", value="10", inline=True)
         embed.add_field(name="판정", value="상단", inline=False)
         await message.channel.send(embed=embed)
                         
-     if message.content == f"{prefix}샤이닝":
+    if message.content == f"{prefix}샤이닝":
         embed = discord.Embed(title="brilliant brawler kick", description = "666ar", color=0x009bcf)
         embed.add_field(name="프레임", value="10", inline=True)
         embed.add_field(name="판정", value="상단", inline=False)
         await message.channel.send(embed=embed)
                         
-     if message.content == f"{prefix}아머킹 중단잡":
+    if message.content == f"{prefix}아머킹 중단잡":
         embed = discord.Embed(title="demon bomb", description = "2al", color=0x009bcf)
         embed.add_field(name="프레임", value="12", inline=True)
         embed.add_field(name="판정", value="중단", inline=False)
         await message.channel.send(embed=embed)
                         
-     if message.content == f"{prefix}아머킹 중단잡":
+    if message.content == f"{prefix}아머킹 중단잡":
         embed = discord.Embed(title="spinning leg lock", description = "2ar", color=0x009bcf)
         embed.add_field(name="프레임", value="12", inline=True)
         embed.add_field(name="판정", value="중단", inline=False)
         await message.channel.send(embed=embed)
                         
-     if message.content == f"{prefix}아머킹 다운잡":
+    if message.content == f"{prefix}아머킹 다운잡":
         embed = discord.Embed(title="stand up", description = "1ar", color=0x009bcf)
         embed.add_field(name="프레임", value="18", inline=True)
         embed.add_field(name="판정", value="중단", inline=False)
         await message.channel.send(embed=embed)
                         
-     if message.content == f"{prefix}아머킹 다운잡":
+    if message.content == f"{prefix}아머킹 다운잡":
         embed = discord.Embed(title="seesaw whip", description = "1AL", color=0x009bcf)
         embed.add_field(name="프레임", value="18", inline=True)
         embed.add_field(name="판정", value="중단", inline=False)
         await message.channel.send(embed=embed)
                         
-     if message.content == f"{prefix}아머킹 연잡" or message.content == f"{prefix}코브라 클러치" :
+    if message.content == f"{prefix}아머킹 연잡" or message.content == f"{prefix}코브라 클러치" :
         embed = discord.Embed(title="cobra clutch", description = "6n23lprk or lkrp", color=0x009bcf)
         embed.add_field(name="프레임", value="12", inline=True)
         embed.add_field(name="판정", value="상단", inline=False)
         await message.channel.send(embed=embed)
                         
-     if message.content == f"{prefix}던저버리기 하프 넬슨" or message.content == f"{prefix}아머킹ar ap ap":
+    if message.content == f"{prefix}던저버리기 하프 넬슨" or message.content == f"{prefix}아머킹ar ap ap":
         embed = discord.Embed(title="flinging half nelson", description = "cobra clutch도중 ar ap ap", color=0x009bcf)
         await message.channel.send(embed=embed)
                         
-     if message.content == f"{prefix}허리조이기슬리퍼" or message.content == f"{prefix}아머킹ak ak ap":
+    if message.content == f"{prefix}허리조이기슬리퍼" or message.content == f"{prefix}아머킹ak ak ap":
         embed = discord.Embed(title="sleeper", description = "cobra clutch도중 ak ak ap", color=0x009bcf)
         await message.channel.send(embed=embed)
                         
-     if message.content == f"{prefix}역떨구기" or message.content == f"{prefix}아머킹rp lp ap":
+    if message.content == f"{prefix}역떨구기" or message.content == f"{prefix}아머킹rp lp ap":
         embed = discord.Embed(title="neck drop", description = "cobra clutch도중 rp lp ap", color=0x009bcf)
         await message.channel.send(embed=embed)
                         
-     if message.content == f"{prefix}트리플 너클" or message.content == f"{prefix}아머킹lp lp ap":
+    if message.content == f"{prefix}트리플 너클" or message.content == f"{prefix}아머킹lp lp ap":
         embed = discord.Embed(title="triple trouble", description = "sleeper도중 lp lp ap", color=0x009bcf)
         await message.channel.send(embed=embed)
                         
-     if message.content == f"{prefix}스트레치머플러" or message.content == f"{prefix}아머킹lk rk ap ak":
+    if message.content == f"{prefix}스트레치머플러" or message.content == f"{prefix}아머킹lk rk ap ak":
         embed = discord.Embed(title="human necktie", description = "sleeper도중 lk rk ap ak", color=0x009bcf)
         await message.channel.send(embed=embed)
                         
-     if message.content == f"{prefix}쵸크슬리퍼" or message.content == f"{prefix}아머킹rk lk ak ap":
+    if message.content == f"{prefix}쵸크슬리퍼" or message.content == f"{prefix}아머킹rk lk ak ap":
         embed = discord.Embed(title="ahoke sleeper", description = "neck drop도중 rk lk ak ap", color=0x009bcf)
         await message.channel.send(embed=embed)
                         
-     if message.content == f"{prefix}쓰리카운터펀치" or message.content == f"{prefix}아머킹ak rp lp lp ap":
+    if message.content == f"{prefix}쓰리카운터펀치" or message.content == f"{prefix}아머킹ak rp lp lp ap":
         embed = discord.Embed(title="3-counter pound", description = "neck drop도중 ak rp lp lp ap", color=0x009bcf)
         await message.channel.send(embed=embed)
                         
-     if message.content == f"{prefix}아머킹 레드":
+    if message.content == f"{prefix}아머킹 레드":
         embed = discord.Embed(title="rage drive", description = "6n23ap홀드", color=0x009bcf)
         embed.add_field(name="프레임", value="20", inline=True)
         embed.add_field(name="판정", value="상단가불기(히트시 잡기 확정)", inline=False)
