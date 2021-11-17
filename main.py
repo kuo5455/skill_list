@@ -3527,7 +3527,7 @@ async def on_message(message):
         embed = discord.Embed(title="solar plexus punch", description = "66rp", color=0x009bcf)
         embed.add_field(name="프레임", value="16", inline=True)
         embed.add_field(name="판정", value="중단", inline=False)
-        embed.add_field(name="가드시", value="-8(가드백)" inline=False)
+        embed.add_field(name="가드시", value="-8(가드백)", inline=False)
         await message.channel.send(embed=embed)
                         
     if message.content == f"{prefix}아머킹 66lk":
