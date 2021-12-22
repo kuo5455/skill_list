@@ -3687,7 +3687,7 @@ async def on_message(message):
         embed.add_field(name="판정", value="중단", inline=False)
         await message.channel.send(embed=embed)
                         
-    if message.content == f"{prefix}아머킹 연잡" or message.content == f"{prefix}코브라 클러치" :
+    if message.content == f"{prefix}코브라 클러치" :
         embed = discord.Embed(title="cobra clutch", description = "6n23lprk or lkrp", color=0x009bcf)
         embed.add_field(name="프레임", value="12", inline=True)
         embed.add_field(name="판정", value="상단", inline=False)
@@ -3726,7 +3726,106 @@ async def on_message(message):
         embed.add_field(name="프레임", value="20", inline=True)
         embed.add_field(name="판정", value="상단가불기(히트시 잡기 확정)", inline=False)
         await message.channel.send(embed=embed)
-                        
+        
+    if message.content == f"{prefix}아머킹 연잡":
+        embed = discord.Embed(title="연잡 목록", description = "", color=0x009bcf)
+        embed.add_field(name="1", value="코브라 클러치", inline=True)
+        embed.add_field(name="2", value="던저버리기 하프 넬슨", inline=True)
+        embed.add_field(name="3", value="허리조이기슬리퍼", inline=True)
+        embed.add_field(name="4", value="역떨구기", inline=True)
+        embed.add_field(name="5", value="트리플 너클", inline=True)
+        embed.add_field(name="6", value="스트레치머플러", inline=True)
+        embed.add_field(name="7", value="쵸크슬리퍼", inline=True)
+        embed.add_field(name="8", value="쓰리카운터펀치", inline=True)
+        await message.channel.send(embed=embed)
+        
+    if message.content == f"{prefix}브라이언":
+        embed = discord.Embed(title="브라이언 퓨리", description = "남성", color=0x009bcf)
+        embed.add_field(name="나이", value="31세", inline=True)
+        embed.add_field(name="출신지", value="미국", inline=True)
+        embed.add_field(name="격투스타일", value="킥복싱 ", inline=True)
+        embed.set_image(url="https://cdn.discordapp.com/attachments/865482695256440843/865656364666978344/1fb12b9e3e5e517ed832942b00a9ccd2d96ec1636e07f799522c584a825d0bea8771e7afea098d8ca708a58b17c6df3d7ce4.png")
+        await message.channel.send(embed=embed)
+   
+
+    if message.content == f"{prefix}브라이언 원투원":
+        embed = discord.Embed(title="one two body blow", description = "lp rp lp", color=0x009bcf)
+        embed.add_field(name="프레임", value="10", inline=True)
+        embed.add_field(name="판정", value="상상중(3타 단독 카운터시 콤보)", inline=False)
+        embed.add_field(name="가드시", value="-6", inline=False)
+        await message.channel.send(embed=embed)
+        
+    if message.content == f"{prefix}브라이언 원투쓰리":
+        embed = discord.Embed(title="one two low kick", description = "lp rp lk", color=0x009bcf)
+        embed.add_field(name="프레임", value="10", inline=True)
+        embed.add_field(name="판정", value="상상하(3타 카운터시 214rk 확정)", inline=False)
+        embed.add_field(name="가드시", value="-12(3타)", inline=False)
+        await message.channel.send(embed=embed)
+        
+    if message.content == f"{prefix}브라이언 원투포":
+        embed = discord.Embed(title="one two high kick", description = "lp rp rk", color=0x009bcf)
+        embed.add_field(name="프레임", value="10", inline=True)
+        embed.add_field(name="판정", value="상단", inline=False)
+        embed.add_field(name="가드시", value="-3", inline=False)
+        await message.channel.send(embed=embed)
+        
+    if message.content == f"{prefix}브라이언 lk lk rp":
+        embed = discord.Embed(title="anaconda bite", description = "lk lk rp", color=0x009bcf)
+        embed.add_field(name="프레임", value="16", inline=True)
+        embed.add_field(name="판정", value="중상상", inline=False)
+        embed.add_field(name="가드시", value="-7", inline=False)
+        await message.channel.send(embed=embed)
+        
+    if message.content == f"{prefix}브라이언 lk lk rk":
+        embed = discord.Embed(title="anaconda rage", description = "lk lk rk", color=0x009bcf)
+        embed.add_field(name="프레임", value="16", inline=True)
+        embed.add_field(name="판정", value="중상중", inline=False)
+        embed.add_field(name="가드시", value="-12", inline=False)
+        await message.channel.send(embed=embed)
+        
+    if message.content == f"{prefix}브라이언 rk lk rk":
+        embed = discord.Embed(title="double spin tomahawk", description = "rk lk rk", color=0x009bcf)
+        embed.add_field(name="프레임", value="12", inline=True)
+        embed.add_field(name="판정", value="상중중", inline=False)
+        embed.add_field(name="가드시", value="-10(2타) ,-12(3타)", inline=False)
+        await message.channel.send(embed=embed)
+        
+    if message.content == f"{prefix}브라이언 ap lp":
+        embed = discord.Embed(title="snake bite", description = "ap lp", color=0x009bcf)
+        embed.add_field(name="프레임", value="17", inline=True)
+        embed.add_field(name="판정", value="중상(호밍기)", inline=False)
+        embed.add_field(name="가드시", value="-1", inline=False)
+        await message.channel.send(embed=embed)
+        
+    if message.content == f"{prefix}브라이언 ap rp":
+        embed = discord.Embed(title="snake pit", description = "ap rp", color=0x009bcf)
+        embed.add_field(name="프레임", value="17", inline=True)
+        embed.add_field(name="판정", value="중단(호밍기)", inline=False)
+        embed.add_field(name="가드시", value="-14", inline=False)
+        await message.channel.send(embed=embed)
+        
+    if message.content == f"{prefix}브라이언 ak" or message.content == f"{prefix}사이드킥":
+        embed = discord.Embed(title="middle side kick", description = "ak", color=0x009bcf)
+        embed.add_field(name="프레임", value="18", inline=True)
+        embed.add_field(name="판정", value="중단(카운터시 콤보)", inline=False)
+        embed.add_field(name="가드시", value="-13(가드백)", inline=False)
+        await message.channel.send(embed=embed)
+        
+    if message.content == f"{prefix}브살문":
+        embed = discord.Embed(title="right left to spin kick", description = "6rp lp pk", color=0x009bcf)
+        embed.add_field(name="프레임", value="15", inline=True)
+        embed.add_field(name="판정", value="중단", inline=False)
+        embed.add_field(name="가드시", value="-10(1,2타), -13(3타)", inline=False)
+        await message.channel.send(embed=embed)
+        
+    if message.content == f"{prefix}브라이언 6lk":
+        embed = discord.Embed(title="knee strike", description = "6lk", color=0x009bcf)
+        embed.add_field(name="프레임", value="16", inline=True)
+        embed.add_field(name="판정", value="중단(카운터시 콤보)", inline=False)
+        embed.add_field(name="가드시", value="0", inline=False)
+        await message.channel.send(embed=embed)
+        
+    
     
  
         
@@ -3773,7 +3872,7 @@ async def on_message(message):
         await message.channel.send(embed=embed)
 
 
-    if message.content == f"{prefix}드라구노프":
+    if message.content == f"{prefix}드라구노프" or  if message.content == f"{prefix}드라":
         embed = discord.Embed(title="세르게이 드라구노프", description = "남성", color=0x009bcf)
         embed.add_field(name="나이", value="26세", inline=True)
         embed.add_field(name="출신지", value="러시아", inline=True)
@@ -3789,7 +3888,7 @@ async def on_message(message):
         embed.set_image(url="https://cdn.discordapp.com/attachments/865482695256440843/865650294067167242/49f459cde5fa9ccc6f09b070067b7256f7879bd13006a2c2af98aed04cc38a8bb2e3a9145358ff82cd227515a2d4e5935c8b.png")
         await message.channel.send(embed=embed)
 
-    if message.content == f"{prefix}럭키":
+    if message.content == f"{prefix}럭키"or  if message.content == f"{prefix}럭키 클로에":
         embed = discord.Embed(title="럭키 클로에(예명)", description = "여성", color=0x009bcf)
         embed.add_field(name="나이", value="20대로추정", inline=True)
         embed.add_field(name="출신지", value="불명", inline=True)
@@ -3841,7 +3940,7 @@ async def on_message(message):
         embed.set_image(url="https://cdn.discordapp.com/attachments/865482695256440843/865654294544253019/f56a9a7685e037a17c73c0931f2a6f6235d4499070b60037c058ee19010eb200011720c2f580647cbb74ef2dc9196eda5d76.png")
         await message.channel.send(embed=embed)
 
-    if message.content == f"{prefix}마레" or message.content == f"{prefix}마스터 레":
+    if message.content == f"{prefix}마레" or message.content == f"{prefix}마스터 레이븐":
         embed = discord.Embed(title="마스터 레이븐", description = "여성", color=0x009bcf)
         embed.add_field(name="나이", value="불명", inline=True)
         embed.add_field(name="출신지", value="불명", inline=True)
@@ -3866,13 +3965,7 @@ async def on_message(message):
         embed.set_image(url="https://cdn.discordapp.com/attachments/865482695256440843/865656069735841852/50042dce268e5c973edfdbd17cb79212712a0f7feaf3041d7bbc57d5c71b4a126267dcd269b2930cf7ad54ebf87dbb47cc78.png")
         await message.channel.send(embed=embed)
 
-    if message.content == f"{prefix}브라이언":
-        embed = discord.Embed(title="브라이언 퓨리", description = "남성", color=0x009bcf)
-        embed.add_field(name="나이", value="31세", inline=True)
-        embed.add_field(name="출신지", value="미국", inline=True)
-        embed.add_field(name="격투스타일", value="킥복싱 ", inline=True)
-        embed.set_image(url="https://cdn.discordapp.com/attachments/865482695256440843/865656364666978344/1fb12b9e3e5e517ed832942b00a9ccd2d96ec1636e07f799522c584a825d0bea8771e7afea098d8ca708a58b17c6df3d7ce4.png")
-        await message.channel.send(embed=embed)
+    
 
     if message.content == f"{prefix}샤오유" or message.content == f"{prefix}조도유":
         embed = discord.Embed(title="링 샤오유", description = "여성", color=0x009bcf)
