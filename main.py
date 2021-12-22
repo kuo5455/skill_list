@@ -3992,7 +3992,7 @@ async def on_message(message):
         embed.add_field(name="가드시", value="-9", inline=False)
         await message.channel.send(embed=embed)
         
-    if message.content == f"{prefix}제트 어퍼
+    if message.content == f"{prefix}제트 어퍼":
         embed = discord.Embed(title="jet uppercut", description = "64rp", color=0x009bcf)
         embed.add_field(name="프레임", value="15", inline=True)
         embed.add_field(name="판정", value="상단", inline=False)
@@ -4006,14 +4006,14 @@ async def on_message(message):
         embed.add_field(name="가드시", value="-11(2타)", inline=False)
         await message.channel.send(embed=embed)
         
-   if message.content == f"{prefix}브라이언 236rk lp rp":
-        embed = discord.Embed(title="snake spin mach breaker", description = "1rp", color=0x009bcf)
+    if message.content == f"{prefix}브라이언 236rk lp rp":
+        embed = discord.Embed(title="snake spin mach breaker", description = "236rk lp rp", color=0x009bcf)
         embed.add_field(name="프레임", value="18", inline=True)
         embed.add_field(name="판정", value="중상상", inline=False)
         embed.add_field(name="가드시", value="-9(3타, 가드백)", inline=False)
         await message.channel.send(embed=embed)
         
-   if message.content == f"{prefix}브라이언 236ap":
+    if message.content == f"{prefix}브라이언 236ap":
         embed = discord.Embed(title="requiem", description = "236ap", color=0x009bcf)
         embed.add_field(name="프레임", value="15", inline=True)
         embed.add_field(name="판정", value="중단(월바운드)", inline=False)
@@ -4402,33 +4402,5 @@ async def on_message(message):
         embed.add_field(name="격투스타일", value="미시마류 싸움 가라테", inline=True)
         embed.set_image(url="https://cdn.discordapp.com/attachments/865482695256440843/869231763510140988/212a89e5d369e75a9b83ccb3d9f1c6edcb7bd9c432980dd8c39d7836a313987270835589bedd49526bb9e4a78caf9df31d86.png")
         await message.channel.send(embed=embed)
-
-    
-
-
-    
-    
-
-
-
-
-    
-
-
-
-
-
-
-
-    
-
-
-
-
-
-
-
-  
-
 
 client.run(os.environ['token'])
