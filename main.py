@@ -3872,7 +3872,7 @@ async def on_message(message):
         await message.channel.send(embed=embed)
 
 
-    if message.content == f"{prefix}드라구노프" or  if message.content == f"{prefix}드라":
+    if message.content == f"{prefix}드라구노프" or  message.content == f"{prefix}드라":
         embed = discord.Embed(title="세르게이 드라구노프", description = "남성", color=0x009bcf)
         embed.add_field(name="나이", value="26세", inline=True)
         embed.add_field(name="출신지", value="러시아", inline=True)
