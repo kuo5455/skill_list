@@ -3993,7 +3993,35 @@ async def on_message(message):
         await message.channel.send(embed=embed)
         
     if message.content == f"{prefix}제트 어퍼
-        embed = discord.Embed(title="", description = "1rp", color=0x009bcf)
+        embed = discord.Embed(title="jet uppercut", description = "64rp", color=0x009bcf)
+        embed.add_field(name="프레임", value="15", inline=True)
+        embed.add_field(name="판정", value="상단", inline=False)
+        embed.add_field(name="가드시", value="-7(가드백)", inline=False)
+        await message.channel.send(embed=embed)
+        
+    if message.content == f"{prefix}브라이언 236rp lp":
+        embed = discord.Embed(title="cross bazooka", description = "236rp lp", color=0x009bcf)
+        embed.add_field(name="프레임", value="15", inline=True)
+        embed.add_field(name="판정", value="상중", inline=False)
+        embed.add_field(name="가드시", value="-11(2타)", inline=False)
+        await message.channel.send(embed=embed)
+        
+    if message.content == f"{prefix}브라이언 236rk lp rp":
+        embed = discord.Embed(title="snake spin mach breaker", description = "1rp", color=0x009bcf)
+        embed.add_field(name="프레임", value="18", inline=True)
+        embed.add_field(name="판정", value="중상상", inline=False)
+        embed.add_field(name="가드시", value="-9(3타, 가드백)", inline=False)
+        await message.channel.send(embed=embed)
+        
+    if message.content == f"{prefix}브라이언 236ap":
+        embed = discord.Embed(title="requiem", description = "236ap", color=0x009bcf)
+        embed.add_field(name="프레임", value="15", inline=True)
+        embed.add_field(name="판정", value="중단(월바운드)", inline=False)
+        embed.add_field(name="가드시", value="-12", inline=False)
+        await message.channel.send(embed=embed)
+        
+     if message.content == f"{prefix}브라이언 1r":
+        embed = discord.Embed(title="stomach blow", description = "1rp", color=0x009bcf)
         embed.add_field(name="프레임", value="15", inline=True)
         embed.add_field(name="판정", value="중단", inline=False)
         embed.add_field(name="가드시", value="-6", inline=False)
