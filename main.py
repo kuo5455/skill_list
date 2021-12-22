@@ -4020,11 +4020,67 @@ async def on_message(message):
         embed.add_field(name="가드시", value="-12", inline=False)
         await message.channel.send(embed=embed)
         
-     if message.content == f"{prefix}브라이언 1r":
-        embed = discord.Embed(title="stomach blow", description = "1rp", color=0x009bcf)
+     if message.content == f"{prefix}브라이언 214rp rk":
+        embed = discord.Embed(title="smash and mach kick", description = "214rp rk", color=0x009bcf)
+        embed.add_field(name="프레임", value="15", inline=True)
+        embed.add_field(name="판정", value="중상(히트시 214rk확정)", inline=False)
+        embed.add_field(name="가드시", value="-9", inline=False)
+        await message.channel.send(embed=embed)
+        
+    if message.content == f"{prefix}브라이언 하체트":
+        embed = discord.Embed(title="hatchet kick", description = "214lk", color=0x009bcf)
+        embed.add_field(name="프레임", value="19", inline=True)
+        embed.add_field(name="판정", value="중단(카운터시 2ak rp확정)", inline=False)
+        embed.add_field(name="가드시", value="-13", inline=False)
+        await message.channel.send(embed=embed)
+        
+    if message.content == f"{prefix}브라이언 214rk":
+        embed = discord.Embed(title="kickoff", description = "214rk", color=0x009bcf)
+        embed.add_field(name="프레임", value="17", inline=True)
+        embed.add_field(name="판정", value="중단", inline=False)
+        embed.add_field(name="가드시", value="-12", inline=False)
+        await message.channel.send(embed=embed)
+        
+    if message.content == f"{prefix}브라이언 공참각":
+        embed = discord.Embed(title="snake slash", description = "666lk", color=0x009bcf)
+        embed.add_field(name="프레임", value="22", inline=True)
+        embed.add_field(name="판정", value="중단", inline=False)
+        embed.add_field(name="가드시", value="+9", inline=False)
+        await message.channel.send(embed=embed)
+        
+    if message.content == f"{prefix}브라이언 기상어퍼":
+        embed = discord.Embed(title="left upper", description = "일어나면서 lp", color=0x009bcf)
         embed.add_field(name="프레임", value="15", inline=True)
         embed.add_field(name="판정", value="중단", inline=False)
-        embed.add_field(name="가드시", value="-6", inline=False)
+        embed.add_field(name="가드시", value="-16(가드백)", inline=False)
+        await message.channel.send(embed=embed)
+        
+    if message.content == f"{prefix}브라이언 기상rp":
+        embed = discord.Embed(title="fisherman's slam", description = "일어나면서 rp", color=0x009bcf)
+        embed.add_field(name="프레임", value="19", inline=True)
+        embed.add_field(name="판정", value="중단(히트후 6rp입력시 콤보)", inline=False)
+        embed.add_field(name="가드시", value="-10", inline=False)
+        await message.channel.send(embed=embed)
+        
+    if message.content == f"{prefix}브라이언 기상무릎":
+        embed = discord.Embed(title="double high knee kick", description = "일어나면서 lk rk", color=0x009bcf)
+        embed.add_field(name="프레임", value="12", inline=True)
+        embed.add_field(name="판정", value="중단(1타 카운터시 콤보)", inline=False)
+        embed.add_field(name="가드시", value="-10", inline=False)
+        await message.channel.send(embed=embed)
+        
+    if message.content == f"{prefix}스네이크 렘페이지" or message.content == f"{prefix}브라이언 앉아3rp lp":
+        embed = discord.Embed(title="snake rampage", description = "몸을 숙이며 3rp lp", color=0x009bcf)
+        embed.add_field(name="프레임", value="13", inline=True)
+        embed.add_field(name="판정", value="중상", inline=False)
+        embed.add_field(name="가드시", value="-8", inline=False)
+        await message.channel.send(embed=embed)
+        
+    if message.content == f"{prefix}노던 크로스" or message.content == f"{prefix}브라이언 앉아3rk":
+        embed = discord.Embed(title="northern cross", description = "몸을 숙이며 3rk", color=0x009bcf)
+        embed.add_field(name="프레임", value="15", inline=True)
+        embed.add_field(name="판정", value="중단", inline=False)
+        embed.add_field(name="가드시", value="-10", inline=False)
         await message.channel.send(embed=embed)
     
  
