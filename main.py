@@ -4144,7 +4144,7 @@ async def on_message(message):
         embed.set_image(url="https://cdn.discordapp.com/attachments/865482695256440843/865650294067167242/49f459cde5fa9ccc6f09b070067b7256f7879bd13006a2c2af98aed04cc38a8bb2e3a9145358ff82cd227515a2d4e5935c8b.png")
         await message.channel.send(embed=embed)
 
-    if message.content == f"{prefix}럭키" or message.content == f"{prefix}럭키 클로에":
+    if message.content == f"{prefix}럭키" or message.content == f"{prefix}럭키 클로에.":
         embed = discord.Embed(title="럭키 클로에(예명)", description = "여성", color=0x009bcf)
         embed.add_field(name="나이", value="20대로추정", inline=True)
         embed.add_field(name="출신지", value="불명", inline=True)
