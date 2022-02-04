@@ -759,7 +759,7 @@ async def on_message(message):
         await message.channel.send(embed=embed)
 
     if message.content == f"{prefix}카즈야 나락":
-        embed = discord.Embed(title="spinning demon to left hook", description = "3lp 6rp", color=0x009bcf)
+        embed = discord.Embed(title="spinning demon to left hook", description = "6n23rk lp", color=0x009bcf)
         embed.add_field(name="프레임", value="16", inline=True)
         embed.add_field(name="판정", value="하중", inline=False)
         embed.add_field(name="가드시", value=" -23(1타) -16(2타)", inline=False)
