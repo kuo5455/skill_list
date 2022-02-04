@@ -2378,6 +2378,13 @@ async def on_message(message):
         embed.add_field(name="판정", value="상단", inline=False)
         embed.add_field(name="가드시", value="-6(가드백 있음)", inline=False)
         await message.channel.send(embed=embed)
+        
+    if message.content == f"{prefix}연환권":
+        embed = discord.Embed(title="chain punch:sheath" , description = "lp lp ap lp", color=0x009bcf)
+        embed.add_field(name="프레임", value="10", inline=True)
+        embed.add_field(name="판정", value="상상상중", inline=False)
+        embed.add_field(name="가드시", value="-13(3타), -16(4타)", inline=False)
+        await message.channel.send(embed=embed)
 
     if message.content == f"{prefix}리로이 원투쓰리":
         embed = discord.Embed(title="front palm xuan feng jiao" , description = "lp rp lk", color=0x009bcf)
@@ -2387,7 +2394,7 @@ async def on_message(message):
         await message.channel.send(embed=embed)
 
     if message.content == f"{prefix}리로이 원투포":
-        embed = discord.Embed(title="front palm snap kick to hermit" , description = "lp rp rp(자세이행)", color=0x009bcf)
+        embed = discord.Embed(title="front palm snap kick to hermit" , description = "lp rp rk(자세이행)", color=0x009bcf)
         embed.add_field(name="프레임", value="10", inline=True)
         embed.add_field(name="판정", value="상상중", inline=False)
         embed.add_field(name="가드시", value="-9", inline=False)
@@ -2402,7 +2409,7 @@ async def on_message(message):
 
     if message.content == f"{prefix}리로이 자세":
         embed = discord.Embed(title="hermit" , description = "ak", color=0x009bcf)
-        embed.add_field(name="상대 하단공격 자동반격", value="", inline=True)
+        embed.add_field(name="상대 하단공격 자동반격(반격시 자세rk ap확정)", value="", inline=True)
         await message.channel.send(embed=embed)
 
     if message.content == f"{prefix}리로이 자세 lp":
@@ -2551,10 +2558,10 @@ async def on_message(message):
         embed.add_field(name="가드시", value="-12(1타) -11(2타)", inline=False)
         await message.channel.send(embed=embed)
 
-    if message.content == f"{prefix}리로이 2ap":
+    if message.content == f"{prefix}참회장":
         embed = discord.Embed(title="chanhui zhang" , description = "2ap", color=0x009bcf)
         embed.add_field(name="프레임", value="17", inline=True)
-        embed.add_field(name="판정", value="중단", inline=False)
+        embed.add_field(name="판정", value="중단(카운터시 66ap확정)", inline=False)
         embed.add_field(name="가드시", value="-4", inline=False)
         await message.channel.send(embed=embed)
 
@@ -2575,7 +2582,7 @@ async def on_message(message):
     if message.content == f"{prefix}리로이 4lp":
         embed = discord.Embed(title="knee snap" , description = "4lp", color=0x009bcf)
         embed.add_field(name="프레임", value="11", inline=True)
-        embed.add_field(name="판정", value="상단(카운터 잡기)", inline=False)
+        embed.add_field(name="판정", value="상단(카운터시 추가타)", inline=False)
         embed.add_field(name="가드시", value="-6", inline=False)
         await message.channel.send(embed=embed)
 
@@ -2607,7 +2614,7 @@ async def on_message(message):
         embed.add_field(name="가드시", value="-8", inline=False)
         await message.channel.send(embed=embed)
 
-    if message.content == f"{prefix}리로이 236rp":
+    if message.content == f"{prefix}리로이 이질풍" or message.content == f"{prefix}리질풍":
         embed = discord.Embed(title="chakra fist" , description = "236rp", color=0x009bcf)
         embed.add_field(name="프레임", value="16", inline=True)
         embed.add_field(name="판정", value="중단", inline=False)
@@ -2649,10 +2656,11 @@ async def on_message(message):
         embed.add_field(name="가드시", value="-12", inline=False)
         await message.channel.send(embed=embed)
 
-    if message.content == f"{prefix}리로이 1rp ap":
+    if message.content == f"{prefix}리로이 동줍" or message.content == f"{prefix}리로이 동전줍기":
         embed = discord.Embed(title="tremor punch" , description = "상대방이 쓰러져 있을 때 1rp ap", color=0x009bcf)
         embed.add_field(name="프레임", value="17", inline=True)
         embed.add_field(name="판정", value="하단", inline=False)
+        embed.add_field(name="가드시", value="-15(1타)-13(2타)", inline=False)
         await message.channel.send(embed=embed)
 
     if message.content == f"{prefix}지팡이"or message. content == f"{prefix}킹팡이":
