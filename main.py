@@ -1869,7 +1869,7 @@ async def on_message(message):
     if message.content == f"{prefix}네간 자세ap"or message. content == f"{prefix}네간 자세 파크":
         embed = discord.Embed(title="grand slam" , description = "intimdation 도중 ap", color=0x009bcf)
         embed.add_field(name="프레임", value="15", inline=True)
-        embed.add_field(name="판정", value="상단(embed.set_image(url="https://discord.com/channels/828584253763747852/865482695256440843/954014051422318613", url="https://discord.com/channels/828584253763747852/865482695256440843/954014060993720350")", inline=False)
+        embed.add_field(name="판정", value="상단", inline=False)
         embed.add_field(name="가드시", value="-9(가드백 있음)", inline=False)
         await message.channel.send(embed=embed)
 
