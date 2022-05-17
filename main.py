@@ -335,7 +335,7 @@ async def on_message(message):
         embed.add_field(name="판정", value="중단", inline=False)
         embed.add_field(name="가드시", value=" -13(2타)", inline=False)
         embed.add_field(name="추가타", value="2타 카운터시 오라[1ap]확정", inline=False)
-        embed.set_image(url="https://cdn.discordapp.com/attachments/865482695256440843/883340641311019038/5abf3196ce5ca880.gif")
+        embed.set_image(url="https://cdn.discordapp.com/attachments/865482695256440843/883340877718769684/82c2e70d5b20d85c.gif")
         await message.channel.send(embed=embed)
 
     if message.content == f"{prefix}녹티스 기상 lk" or message. content == f"{prefix}녹티스 기상 lk rp":
