@@ -605,7 +605,7 @@ async def on_message(message):
     if message.content == f"{prefix}카즈야 기원권":
         embed = discord.Embed(title="abolishing fist", description = "3rp", color=0x009bcf)
         embed.add_field(name="프레임", value="14", inline=True)
-        embed.add_field(name="판정", value="중단(호밍기,)", inline=False)
+        embed.add_field(name="판정", value="중단(호밍기)", inline=False)
         embed.add_field(name="가드시", value=" -12", inline=False)
         embed.add_field(name="추가타", value="카운터시 콤보")
         embed.set_image(url="https://cdn.discordapp.com/attachments/865482695256440843/884419057074442250/ezgif.com-gif-maker_15.gif")
