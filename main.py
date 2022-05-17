@@ -60,7 +60,7 @@ async def on_message(message):
         embed.add_field(name="프레임", value="15", inline=True)
         embed.add_field(name="판정", value="중x2상x2중", inline=False)
         embed.add_field(name="가드시", value=" -12(1타) -14(5타)", inline=False)
-        embed.add_field(name="추가타", value="히트시 하단창[1rp]확정")
+        embed.add_field(name="추가타", value="히트시 하단창[1rp]확정", inline=False)
         embed.set_image(url="https://cdn.discordapp.com/attachments/865482695256440843/883333818478628884/ezgif.com-gif-maker_19.gif")
         await message.channel.send(embed=embed)
 
@@ -131,7 +131,7 @@ async def on_message(message):
         embed.add_field(name="프레임", value="20", inline=True)
         embed.add_field(name="판정", value="하단", inline=False)
         embed.add_field(name="가드시", value=" -20", inline=False)
-        embed.add_field(name="추가타", value="히트시 오라[1ap]확정) ", inline=False)
+        embed.add_field(name="추가타", value="히트시 오라[1ap]확정", inline=False)
         embed.set_image(url="https://cdn.discordapp.com/attachments/865482695256440843/883333834068885534/ezgif.com-gif-maker_20.gif")
         await message.channel.send(embed=embed)
 
@@ -148,7 +148,7 @@ async def on_message(message):
         embed.add_field(name="프레임", value="23", inline=True)
         embed.add_field(name="판정", value="중단(파워크래시)", inline=False)
         embed.add_field(name="가드시", value=" -13", inline=False)
-        embed.add_field(name="추가타", value="히트시 중단창[6ap]확정")
+        embed.add_field(name="추가타", value="히트시 중단창[6ap]확정", inline=False)
         embed.set_image(url="https://cdn.discordapp.com/attachments/865482695256440843/883333829010546759/ezgif.com-gif-maker_31.gif")
         await message.channel.send(embed=embed)
 
@@ -237,7 +237,7 @@ async def on_message(message):
         embed.add_field(name="프레임", value="24", inline=True)
         embed.add_field(name="판정", value="하단", inline=False)
         embed.add_field(name="가드시", value=" -19", inline=False)
-        embed.add_field(name="추가타", value="히트시 오라[1ap]확정")
+        embed.add_field(name="추가타", value="히트시 오라[1ap]확정", inline=False)
         embed.set_image(url="https://cdn.discordapp.com/attachments/865482695256440843/883333882508877894/ezgif.com-gif-maker_44.gif")
         await message.channel.send(embed=embed)
 
@@ -267,8 +267,9 @@ async def on_message(message):
     if message.content == f"{prefix}녹티스 4lp rp":
         embed = discord.Embed(title="shadow stab", description = "4lp rp", color=0x009bcf)
         embed.add_field(name="프레임", value="12", inline=True)
-        embed.add_field(name="판정", value="상단(2타 단독 카운터시 콤보)", inline=False)
+        embed.add_field(name="판정", value="상단", inline=False)
         embed.add_field(name="가드시", value=" -9", inline=False)
+         embed.add_field(name="추가타", value="2타 카운터시 콤보", inline=False)
         embed.set_image(url="https://cdn.discordapp.com/attachments/865482695256440843/883333880353005658/ezgif.com-gif-maker_3.gif")
         await message.channel.send(embed=embed)
 
@@ -277,7 +278,7 @@ async def on_message(message):
         embed.add_field(name="프레임", value="14", inline=True)
         embed.add_field(name="판정", value="중단", inline=False)
         embed.add_field(name="가드시", value=" -9", inline=False)
-        embed.add_field(name="추가타", value="히트시 ap")
+        embed.add_field(name="추가타", value="히트시 ap", inline=False)
         await message.channel.send(embed=embed)
 
     if message.content == f"{prefix}부왕의 검"or  message.content == f"{prefix}녹티스 가불기":
@@ -292,7 +293,7 @@ async def on_message(message):
         embed.add_field(name="프레임", value="13", inline=True)
         embed.add_field(name="판정", value="상단", inline=False)
         embed.add_field(name="가드시", value=" -4", inline=False)
-        embed.add_field(name="추가타", value="카운터시 콤보")
+        embed.add_field(name="추가타", value="카운터시 콤보", inline=False)
         embed.set_image(url="https://cdn.discordapp.com/attachments/865482695256440843/883333872664854558/ezgif.com-gif-maker_43.gif")
         await message.channel.send(embed=embed)
 
@@ -333,7 +334,7 @@ async def on_message(message):
         embed.add_field(name="프레임", value="13", inline=True)
         embed.add_field(name="판정", value="중단", inline=False)
         embed.add_field(name="가드시", value=" -13(2타)", inline=False)
-        embed.add_field(name="추가타", value="2타 카운터시 오라[1ap]확정")
+        embed.add_field(name="추가타", value="2타 카운터시 오라[1ap]확정", inline=False)
         embed.set_image(url="https://cdn.discordapp.com/attachments/865482695256440843/883340641311019038/5abf3196ce5ca880.gif")
         await message.channel.send(embed=embed)
 
@@ -374,7 +375,7 @@ async def on_message(message):
         embed.add_field(name="프레임", value="18", inline=True)
         embed.add_field(name="판정", value="중단", inline=False)
         embed.add_field(name="가드시", value=" 0", inline=False)
-        embed.add_field(name="추가타", value="카운터시 오라[1ap]확정")
+        embed.add_field(name="추가타", value="카운터시 오라[1ap]확정", inline=False)
         await message.channel.send(embed=embed)
         
     if message.content == f"{prefix}녹티스 4rk ap":
@@ -382,7 +383,7 @@ async def on_message(message):
         embed.add_field(name="프레임", value="18", inline=True)
         embed.add_field(name="판정", value="상중", inline=False)
         embed.add_field(name="가드시", value="-13(2타, 가드백)", inline=False)
-        embed.add_field(name="추가타", value="카운터시 콤보")
+        embed.add_field(name="추가타", value="카운터시 콤보", inline=False)
         embed.set_image(url="https://cdn.discordapp.com/attachments/865482695256440843/883333890465493092/ezgif.com-gif-maker_4.gif")
         await message.channel.send(embed=embed)
         
@@ -568,12 +569,12 @@ async def on_message(message):
         embed.set_image(url="")
         await message.channel.send(embed=embed)
 
-    if message.content == f"{prefix}우종":
+    if message.content == f"{prefix}카즈야 우종":
         embed = discord.Embed(title="right splits kick", description = "6rk", color=0x009bcf)
         embed.add_field(name="프레임", value="19", inline=True)
         embed.add_field(name="판정", value="중단", inline=False)
         embed.add_field(name="가드시", value=" +4", inline=False)
-        embed.add_field(name="추가타", value="카운터시 뻥발[66rk]확정")
+        embed.add_field(name="추가타", value="카운터시 뻥발[66rk]확정", inline=False)
         embed.set_image(url="https://cdn.discordapp.com/attachments/865482695256440843/884418407800377374/ezgif.com-gif-maker_39.gif")
         await message.channel.send(embed=embed)
 
@@ -607,7 +608,7 @@ async def on_message(message):
         embed.add_field(name="프레임", value="14", inline=True)
         embed.add_field(name="판정", value="중단(호밍기)", inline=False)
         embed.add_field(name="가드시", value=" -12", inline=False)
-        embed.add_field(name="추가타", value="카운터시 콤보")
+        embed.add_field(name="추가타", value="카운터시 콤보", inline=False)
         embed.set_image(url="https://cdn.discordapp.com/attachments/865482695256440843/884419057074442250/ezgif.com-gif-maker_15.gif")
         await message.channel.send(embed=embed)
 
@@ -616,7 +617,7 @@ async def on_message(message):
         embed.add_field(name="프레임", value="20", inline=True)
         embed.add_field(name="판정", value="중단", inline=False)
         embed.add_field(name="가드시", value=" -9", inline=False)
-        embed.add_field(name="추가타", value="히트시 뻥발[66rk]확정")
+        embed.add_field(name="추가타", value="히트시 뻥발[66rk]확정", inline=False)
         embed.set_image(url="https://cdn.discordapp.com/attachments/865482695256440843/884418377752379432/ezgif.com-gif-maker_34.gif")
         await message.channel.send(embed=embed)
         
@@ -649,7 +650,7 @@ async def on_message(message):
         embed.add_field(name="프레임", value="25", inline=True)
         embed.add_field(name="판정", value="하단", inline=False)
         embed.add_field(name="가드시", value=" -14", inline=False)
-        embed.add_field(name="추가타", value="카운터시 콤보")
+        embed.add_field(name="추가타", value="카운터시 콤보", inline=False)
         embed.set_image(url="")
         await message.channel.send(embed=embed)
 
