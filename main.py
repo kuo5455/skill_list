@@ -269,7 +269,7 @@ async def on_message(message):
         embed.add_field(name="프레임", value="12", inline=True)
         embed.add_field(name="판정", value="상단", inline=False)
         embed.add_field(name="가드시", value=" -9", inline=False)
-         embed.add_field(name="추가타", value="2타 카운터시 콤보", inline=False)
+        embed.add_field(name="추가타", value="2타 카운터시 콤보", inline=False)
         embed.set_image(url="https://cdn.discordapp.com/attachments/865482695256440843/883333880353005658/ezgif.com-gif-maker_3.gif")
         await message.channel.send(embed=embed)
 
