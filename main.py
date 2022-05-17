@@ -4426,4 +4426,6 @@ async def on_message(message):
         embed.set_image(url="https://cdn.discordapp.com/attachments/865482695256440843/869231763510140988/212a89e5d369e75a9b83ccb3d9f1c6edcb7bd9c432980dd8c39d7836a313987270835589bedd49526bb9e4a78caf9df31d86.png")
         await message.channel.send(embed=embed)
 
+        heroku ps:scale web=1
+            
 client.run(os.environ['token'])
